@@ -1,5 +1,5 @@
 // ==========================================================================
-// PRODUCTS DATABASE (27 items across 5 categories)
+// PRODUCTS DATABASE (29 items across 5 categories)
 // ==========================================================================
 const PRODUCTS = [
     // 1. Flour & Millet Products
@@ -16,8 +16,7 @@ const PRODUCTS = [
         usage: "Ideal for making Ragi Koozh, Ragi Kali, soft Ragi Rotis, and traditional porridge.",
         tags: ["gluten-free"],
         packs: [
-            { weight: "500g", price: 65 },
-            { weight: "1kg", price: 120 }
+            { weight: "500g", price: 45 }
         ],
         defaultPackIndex: 0
     },
@@ -34,8 +33,7 @@ const PRODUCTS = [
         usage: "Best for Kambu Koozh, Kambu Adai, and healthy pearl millet flatbreads.",
         tags: ["gluten-free"],
         packs: [
-            { weight: "500g", price: 70 },
-            { weight: "1kg", price: 130 }
+            { weight: "500g", price: 50 }
         ],
         defaultPackIndex: 0
     },
@@ -52,8 +50,7 @@ const PRODUCTS = [
         usage: "Used for Thinai Kozhukattai, sweet Thinai Puttu (with jaggery), and Millet Dosas.",
         tags: ["gluten-free", "immunity"],
         packs: [
-            { weight: "500g", price: 85 },
-            { weight: "1kg", price: 160 }
+            { weight: "500g", price: 50 }
         ],
         defaultPackIndex: 0
     },
@@ -70,8 +67,7 @@ const PRODUCTS = [
         usage: "Perfect for making Varagu Dosa, Varagu Idiyaapam, and healthy porridge mixes.",
         tags: ["gluten-free"],
         packs: [
-            { weight: "500g", price: 80 },
-            { weight: "1kg", price: 150 }
+            { weight: "500g", price: 65 }
         ],
         defaultPackIndex: 0
     },
@@ -88,8 +84,7 @@ const PRODUCTS = [
         usage: "Mix 2 tbsp in water/milk, boil for 5 minutes, sweeten with jaggery or country sugar.",
         tags: ["immunity"],
         packs: [
-            { weight: "500g", price: 190 },
-            { weight: "1kg", price: 370 }
+            { weight: "500g", price: 200 }
         ],
         defaultPackIndex: 0
     },
@@ -106,8 +101,7 @@ const PRODUCTS = [
         usage: "Boil with milk or water, add palm sugar to taste, serve warm.",
         tags: ["immunity"],
         packs: [
-            { weight: "250g", price: 110 },
-            { weight: "500g", price: 210 }
+            { weight: "250g", price: 140 }
         ],
         defaultPackIndex: 0
     },
@@ -126,8 +120,7 @@ const PRODUCTS = [
         usage: "Ideal for boiled rice, traditional idli batter, and heritage rice porridge.",
         tags: ["gluten-free", "immunity"],
         packs: [
-            { weight: "1kg", price: 110 },
-            { weight: "5kg", price: 530 }
+            { weight: "1kg", price: 110 }
         ],
         defaultPackIndex: 0
     },
@@ -144,8 +137,7 @@ const PRODUCTS = [
         usage: "Excellent for making sweet Kavuni Arisi Puttu, payasam, and sweet rice pudding.",
         tags: ["gluten-free", "immunity"],
         packs: [
-            { weight: "1kg", price: 160 },
-            { weight: "5kg", price: 770 }
+            { weight: "1kg", price: 160 }
         ],
         defaultPackIndex: 0
     },
@@ -162,8 +154,7 @@ const PRODUCTS = [
         usage: "Standard cooking rice. Use as replacement for white Ponni rice.",
         tags: ["gluten-free"],
         packs: [
-            { weight: "1kg", price: 95 },
-            { weight: "5kg", price: 460 }
+            { weight: "1kg", price: 110 }
         ],
         defaultPackIndex: 0
     },
@@ -197,8 +188,7 @@ const PRODUCTS = [
         usage: "Used for Murukku, Athirasam, Idiyappam, and Kolukattai outer shells.",
         tags: ["gluten-free"],
         packs: [
-            { weight: "500g", price: 50 },
-            { weight: "1kg", price: 90 }
+            { weight: "500g", price: 55 }
         ],
         defaultPackIndex: 0
     },
@@ -251,8 +241,7 @@ const PRODUCTS = [
         usage: "Ready-to-eat sweet treat.",
         tags: ["natural-sweetener"],
         packs: [
-            { weight: "250g", price: 60 },
-            { weight: "500g", price: 110 }
+            { weight: "250g", price: 60 }
         ],
         defaultPackIndex: 0
     },
@@ -269,7 +258,7 @@ const PRODUCTS = [
         usage: "Ready-to-eat.",
         tags: ["natural-sweetener"],
         packs: [
-            { weight: "200g (10 units)", price: 80 }
+            { weight: "200g", price: 100 }
         ],
         defaultPackIndex: 0
     },
@@ -286,7 +275,7 @@ const PRODUCTS = [
         usage: "Ready-to-eat.",
         tags: ["natural-sweetener"],
         packs: [
-            { weight: "200g (10 units)", price: 75 }
+            { weight: "200g", price: 75 }
         ],
         defaultPackIndex: 0
     },
@@ -320,7 +309,7 @@ const PRODUCTS = [
         usage: "Ready-to-eat herbal snack.",
         tags: ["natural-sweetener", "immunity"],
         packs: [
-            { weight: "200g", price: 110 }
+            { weight: "200g", price: 150 }
         ],
         defaultPackIndex: 0
     },
@@ -356,8 +345,7 @@ const PRODUCTS = [
         usage: "Serve with curd rice, idli, dosa, or hot rice.",
         tags: [],
         packs: [
-            { weight: "250g", price: 80 },
-            { weight: "500g", price: 150 }
+            { weight: "250g", price: 80 }
         ],
         defaultPackIndex: 0
     },
@@ -374,7 +362,7 @@ const PRODUCTS = [
         usage: "Goes wonderfully with curd rice and variety rices.",
         tags: [],
         packs: [
-            { weight: "250g", price: 75 }
+            { weight: "250g", price: 80 }
         ],
         defaultPackIndex: 0
     },
@@ -392,7 +380,7 @@ const PRODUCTS = [
         usage: "Mix with wood-pressed sesame oil or ghee and use as dip for hot idlis and dosas.",
         tags: [],
         packs: [
-            { weight: "250g", price: 85 }
+            { weight: "100g", price: 38 }
         ],
         defaultPackIndex: 0
     },
@@ -409,7 +397,7 @@ const PRODUCTS = [
         usage: "Add to tamarind base for Vatha Kuzhambu, Garlic Kuzhambu, or fish curry.",
         tags: [],
         packs: [
-            { weight: "500g", price: 180 }
+            { weight: "500g", price: 240 }
         ],
         defaultPackIndex: 0
     },
@@ -443,8 +431,7 @@ const PRODUCTS = [
         usage: "Use in daily cooking, or mix 1/2 tsp with warm milk for turmeric latte.",
         tags: ["immunity"],
         packs: [
-            { weight: "100g", price: 40 },
-            { weight: "250g", price: 90 }
+            { weight: "100g", price: 55 }
         ],
         defaultPackIndex: 0
     },
@@ -463,7 +450,7 @@ const PRODUCTS = [
         usage: "Deep fry in hot oil for 5-10 seconds until crispy. Serve with variety rice or curd rice.",
         tags: [],
         packs: [
-            { weight: "100g", price: 60 }
+            { weight: "250g", price: 60 }
         ],
         defaultPackIndex: 0
     },
@@ -480,7 +467,7 @@ const PRODUCTS = [
         usage: "Deep fry in oil and enjoy as a crunchy side dish for South Indian meals.",
         tags: [],
         packs: [
-            { weight: "100g", price: 60 }
+            { weight: "250g", price: 50 }
         ],
         defaultPackIndex: 0
     },
@@ -494,10 +481,10 @@ const PRODUCTS = [
         description: "Traditional ash gourd (white pumpkin) vathal made using native varieties, cured with sour curd and green chillies before sun-drying.",
         benefits: "Highly alkaline superfood, cools the body, aids digestion.",
         ingredients: "Ash Gourd, Curd, Green Chillies, Salt, Asafoetida.",
-        usage: "Fry in hot oil till crisp and golden. Best paired with sambar or rasam rice.",
+        usage: "Fry in hot oil till crispy and golden. Best paired with sambar or rasam rice.",
         tags: [],
         packs: [
-            { weight: "150g", price: 80 }
+            { weight: "250g", price: 70 }
         ],
         defaultPackIndex: 0
     },
@@ -514,7 +501,7 @@ const PRODUCTS = [
         usage: "Deep fry in oil to eat as side dish, or use as tempering (tadka) for traditional curries.",
         tags: [],
         packs: [
-            { weight: "150g", price: 90 }
+            { weight: "250g", price: 75 }
         ],
         defaultPackIndex: 0
     }
