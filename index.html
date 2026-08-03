@@ -43,10 +43,27 @@
 
             <!-- Navigation Links -->
             <nav class="nav-bar" id="navigation-bar">
-                <a href="#" class="nav-link active" id="nav-home">Home</a>
-                <a href="#store-section" class="nav-link" id="nav-store">Store</a>
-                <a href="#heritage-section" class="nav-link" id="nav-heritage">Our Heritage</a>
-                <a href="#contact-section" class="nav-link" id="nav-contact">Contact</a>
+                <a href="/" class="nav-link active" id="nav-home">Home</a>
+                <div class="nav-dropdown" id="nav-store-dropdown">
+                    <a href="/#store-section" class="nav-link" id="nav-store">Store <i class="fa-solid fa-chevron-down" style="font-size:0.75rem; margin-left:2px;"></i></a>
+                    <div class="dropdown-content">
+                        <a href="/category/cereals/">Cereals</a>
+                        <a href="/category/dry-fruits/">Dry Fruits</a>
+                        <a href="/category/flour/">Flour</a>
+                        <a href="/category/millets/">Millets</a>
+                        <a href="/category/oil/">Oil</a>
+                        <a href="/category/oil-seeds/">Oil Seeds</a>
+                        <a href="/category/pulses/">Pulses</a>
+                        <a href="/category/rice/">Rice</a>
+                        <a href="/category/salt/">Salt</a>
+                        <a href="/category/seeds/">Seeds</a>
+                        <a href="/category/spices/">Spices</a>
+                        <a href="/category/health-powders/">Health Powders</a>
+                        <a href="/category/sweeteners/">Sweeteners</a>
+                    </div>
+                </div>
+                <a href="/#heritage-section" class="nav-link" id="nav-heritage">Our Heritage</a>
+                <a href="/#contact-section" class="nav-link" id="nav-contact">Contact</a>
             </nav>
 
             <!-- Action Controls -->
@@ -82,14 +99,27 @@
         <div class="mobile-nav-content">
             <button class="mobile-nav-close" id="mobile-nav-close" aria-label="Close menu">&times;</button>
             <div class="mobile-logo-wrapper">
-                <img src="assets/logo.jpg" alt="Amma Veedu Logo" class="mobile-menu-logo">
+                <img src="/assets/logo.jpg" alt="Amma Veedu Logo" class="mobile-menu-logo">
                 <h3>Amma Veedu</h3>
             </div>
             <nav class="mobile-nav-links">
-                <a href="#" class="mobile-nav-link" id="mob-nav-home">Home</a>
-                <a href="#store-section" class="mobile-nav-link" id="mob-nav-store">Store</a>
-                <a href="#heritage-section" class="mobile-nav-link" id="mob-nav-heritage">Our Heritage</a>
-                <a href="#contact-section" class="mobile-nav-link" id="mob-nav-contact">Contact</a>
+                <a href="/" class="mobile-nav-link" id="mob-nav-home">Home</a>
+                <a href="/#store-section" class="mobile-nav-link" id="mob-nav-store">Store</a>
+                <a href="/category/cereals/" class="mobile-nav-link" style="padding-left: 15px; font-size: 0.95rem; border-color: rgba(0,0,0,0.05);">Cereals</a>
+                <a href="/category/dry-fruits/" class="mobile-nav-link" style="padding-left: 15px; font-size: 0.95rem; border-color: rgba(0,0,0,0.05);">Dry Fruits</a>
+                <a href="/category/flour/" class="mobile-nav-link" style="padding-left: 15px; font-size: 0.95rem; border-color: rgba(0,0,0,0.05);">Flour</a>
+                <a href="/category/millets/" class="mobile-nav-link" style="padding-left: 15px; font-size: 0.95rem; border-color: rgba(0,0,0,0.05);">Millets</a>
+                <a href="/category/oil/" class="mobile-nav-link" style="padding-left: 15px; font-size: 0.95rem; border-color: rgba(0,0,0,0.05);">Oil</a>
+                <a href="/category/oil-seeds/" class="mobile-nav-link" style="padding-left: 15px; font-size: 0.95rem; border-color: rgba(0,0,0,0.05);">Oil Seeds</a>
+                <a href="/category/pulses/" class="mobile-nav-link" style="padding-left: 15px; font-size: 0.95rem; border-color: rgba(0,0,0,0.05);">Pulses</a>
+                <a href="/category/rice/" class="mobile-nav-link" style="padding-left: 15px; font-size: 0.95rem; border-color: rgba(0,0,0,0.05);">Rice</a>
+                <a href="/category/salt/" class="mobile-nav-link" style="padding-left: 15px; font-size: 0.95rem; border-color: rgba(0,0,0,0.05);">Salt</a>
+                <a href="/category/seeds/" class="mobile-nav-link" style="padding-left: 15px; font-size: 0.95rem; border-color: rgba(0,0,0,0.05);">Seeds</a>
+                <a href="/category/spices/" class="mobile-nav-link" style="padding-left: 15px; font-size: 0.95rem; border-color: rgba(0,0,0,0.05);">Spices</a>
+                <a href="/category/health-powders/" class="mobile-nav-link" style="padding-left: 15px; font-size: 0.95rem; border-color: rgba(0,0,0,0.05);">Health Powders</a>
+                <a href="/category/sweeteners/" class="mobile-nav-link" style="padding-left: 15px; font-size: 0.95rem; border-color: rgba(0,0,0,0.05);">Sweeteners</a>
+                <a href="/#heritage-section" class="mobile-nav-link" id="mob-nav-heritage">Our Heritage</a>
+                <a href="/#contact-section" class="mobile-nav-link" id="mob-nav-contact">Contact</a>
             </nav>
             <div class="mobile-search-wrapper">
                 <input type="text" placeholder="Search product..." id="mobile-search-input">
@@ -198,28 +228,68 @@
                             </button>
                         </li>
                         <li>
-                            <button class="cat-btn" data-category="flour-millets" id="cat-flours">
-                                <i class="fa-solid fa-wheat-awn"></i> Flour & Millets
+                            <button class="cat-btn" data-category="cereals" id="cat-cereals">
+                                <i class="fa-solid fa-wheat-awn"></i> Cereals
                             </button>
                         </li>
                         <li>
-                            <button class="cat-btn" data-category="rice-staples" id="cat-rice">
-                                <i class="fa-solid fa-bowl-rice"></i> Traditional Rice
+                            <button class="cat-btn" data-category="dry-fruits" id="cat-dry-fruits">
+                                <i class="fa-solid fa-seedling"></i> Dry Fruits
                             </button>
                         </li>
                         <li>
-                            <button class="cat-btn" data-category="homemade-products" id="cat-sweets">
-                                <i class="fa-solid fa-jar"></i> Homemade Snacks
+                            <button class="cat-btn" data-category="flour" id="cat-flour">
+                                <i class="fa-solid fa-mortar-pestle"></i> Flour
                             </button>
                         </li>
                         <li>
-                            <button class="cat-btn" data-category="pickles-masalas" id="cat-pickles">
-                                <i class="fa-solid fa-pepper-hot"></i> Pickles & Masalas
+                            <button class="cat-btn" data-category="millets" id="cat-millets">
+                                <i class="fa-solid fa-leaf"></i> Millets
                             </button>
                         </li>
                         <li>
-                            <button class="cat-btn" data-category="homemade-vathal" id="cat-vathal">
-                                <i class="fa-solid fa-sun"></i> Homemade Vathal
+                            <button class="cat-btn" data-category="oil" id="cat-oil">
+                                <i class="fa-solid fa-oil-well"></i> Oil
+                            </button>
+                        </li>
+                        <li>
+                            <button class="cat-btn" data-category="oil-seeds" id="cat-oil-seeds">
+                                <i class="fa-solid fa-seedling"></i> Oil Seeds
+                            </button>
+                        </li>
+                        <li>
+                            <button class="cat-btn" data-category="pulses" id="cat-pulses">
+                                <i class="fa-solid fa-bowl-food"></i> Pulses
+                            </button>
+                        </li>
+                        <li>
+                            <button class="cat-btn" data-category="rice" id="cat-rice">
+                                <i class="fa-solid fa-bowl-rice"></i> Rice
+                            </button>
+                        </li>
+                        <li>
+                            <button class="cat-btn" data-category="salt" id="cat-salt">
+                                <i class="fa-solid fa-cubes"></i> Salt
+                            </button>
+                        </li>
+                        <li>
+                            <button class="cat-btn" data-category="seeds" id="cat-seeds">
+                                <i class="fa-solid fa-spa"></i> Seeds
+                            </button>
+                        </li>
+                        <li>
+                            <button class="cat-btn" data-category="spices" id="cat-spices">
+                                <i class="fa-solid fa-pepper-hot"></i> Spices
+                            </button>
+                        </li>
+                        <li>
+                            <button class="cat-btn" data-category="health-powders" id="cat-health-powders">
+                                <i class="fa-solid fa-prescription-bottle-medical"></i> Health Powders
+                            </button>
+                        </li>
+                        <li>
+                            <button class="cat-btn" data-category="sweeteners" id="cat-sweeteners">
+                                <i class="fa-solid fa-jar"></i> Sweeteners
                             </button>
                         </li>
                     </ul>

@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pulses Staples | Amma Veedu Traditional Foods</title>
+    <meta name="description" content="Unpolished lentils, pulses, whole beans, and dals rich in protein and fiber, sourced directly from organic farmers.">
+    <meta name="author" content="Amma Veedu Traditional Foods">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="/assets/logo.jpg">
+    
+    <!-- Open Graph for Social Sharing -->
+    <meta property="og:title" content="Pulses Staples | Amma Veedu">
+    <meta property="og:description" content="Unpolished lentils, pulses, whole beans, and dals rich in protein and fiber, sourced directly from organic farmers.">
+    <meta property="og:image" content="/assets/logo.jpg">
+    <meta property="og:type" content="website">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body data-page="category" data-category-id="pulses">
+
+    <!-- Header & Navigation -->
+    <header class="main-header" id="main-header">
+        <div class="header-container">
+            <a href="/" class="brand-logo-area" id="brand-logo-link">
+                <img src="/assets/logo.jpg" alt="Amma Veedu Logo" class="header-logo" id="header-logo-img">
+                <div class="brand-text">
+                    <span class="brand-name">Amma Veedu</span>
+                    <span class="brand-tagline">Traditional Foods</span>
+                </div>
+            </a>
+
+            <!-- Navigation Links -->
+            <nav class="nav-bar" id="navigation-bar">
+                <a href="/" class="nav-link" id="nav-home">Home</a>
+                <div class="nav-dropdown" id="nav-store-dropdown">
+                    <a href="/#store-section" class="nav-link" id="nav-store">Store <i class="fa-solid fa-chevron-down" style="font-size:0.75rem; margin-left:2px;"></i></a>
+                    <div class="dropdown-content">
+                        <a href="/category/cereals/">Cereals</a>
+                        <a href="/category/dry-fruits/">Dry Fruits</a>
+                        <a href="/category/flour/">Flour</a>
+                        <a href="/category/millets/">Millets</a>
+                        <a href="/category/oil/">Oil</a>
+                        <a href="/category/oil-seeds/">Oil Seeds</a>
+                        <a href="/category/pulses/">Pulses</a>
+                        <a href="/category/rice/">Rice</a>
+                        <a href="/category/salt/">Salt</a>
+                        <a href="/category/seeds/">Seeds</a>
+                        <a href="/category/spices/">Spices</a>
+                        <a href="/category/health-powders/">Health Powders</a>
+                        <a href="/category/sweeteners/">Sweeteners</a>
+                    </div>
+                </div>
+                <a href="/#heritage-section" class="nav-link" id="nav-heritage">Our Heritage</a>
+                <a href="/#contact-section" class="nav-link" id="nav-contact">Contact</a>
+            </nav>
+
+            <!-- Action Controls -->
+            <div class="header-actions">
+                <!-- Search bar in header -->
+                <div class="header-search-box" id="header-search-container">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    <input type="text" placeholder="Search traditional foods..." id="store-search-input" aria-label="Search products">
+                </div>
+
+                <!-- Theme Toggle Button -->
+                <button class="theme-toggle-btn" id="theme-toggle-btn" title="Toggle Light/Dark Theme" aria-label="Toggle dark mode">
+                    <i class="fa-solid fa-moon theme-icon-dark"></i>
+                    <i class="fa-solid fa-sun theme-icon-light"></i>
+                </button>
+
+                <!-- Floating Cart Handle -->
+                <button class="cart-trigger-btn" id="cart-trigger-btn" aria-label="Open shopping cart">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <span class="cart-count-badge" id="cart-count-badge">0</span>
+                </button>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Open mobile menu">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Nav Overlay -->
+    <div class="mobile-nav-overlay" id="mobile-nav-overlay">
+        <div class="mobile-nav-content">
+            <button class="mobile-nav-close" id="mobile-nav-close" aria-label="Close menu">&times;</button>
+            <div class="mobile-logo-wrapper">
+                <img src="/assets/logo.jpg" alt="Amma Veedu Logo" class="mobile-menu-logo">
+                <h3>Amma Veedu</h3>
+            </div>
+            <nav class="mobile-nav-links">
+                <a href="/" class="mobile-nav-link" id="mob-nav-home">Home</a>
+                <a href="/#store-section" class="mobile-nav-link" id="mob-nav-store">Store</a>
+                <a href="/category/cereals/" class="mobile-nav-link" style="padding-left: 15px; font-size: 0.95rem; border-color: rgba(0,0,0,0.05);">Cereals</a>
+                <a href="/category/dry-fruits/" class="mobile-nav-link" style="padding-left: 15px; font-size: 0.95rem; border-color: rgba(0,0,0,0.05);">Dry Fruits</a>
+                <a href="/category/flour/" class="mobile-nav-link" style="padding-left: 15px; font-size: 0.95rem; border-color: rgba(0,0,0,0.05);">Flour</a>
+                <a href="/category/millets/" class="mobile-nav-link" style="padding-left: 15px; font-size: 0.95rem; border-color: rgba(0,0,0,0.05);">Millets</a>
+                <a href="/category/oil/" class="mobile-nav-link" style="padding-left: 15px; font-size: 0.95rem; border-color: rgba(0,0,0,0.05);">Oil</a>
+                <a href="/category/oil-seeds/" class="mobile-nav-link" style="padding-left: 15px; font-size: 0.95rem; border-color: rgba(0,0,0,0.05);">Oil Seeds</a>
+                <a href="/category/pulses/" class="mobile-nav-link" style="padding-left: 15px; font-size: 0.95rem; border-color: rgba(0,0,0,0.05);">Pulses</a>
+                <a href="/category/rice/" class="mobile-nav-link" style="padding-left: 15px; font-size: 0.95rem; border-color: rgba(0,0,0,0.05);">Rice</a>
+                <a href="/category/salt/" class="mobile-nav-link" style="padding-left: 15px; font-size: 0.95rem; border-color: rgba(0,0,0,0.05);">Salt</a>
+                <a href="/category/seeds/" class="mobile-nav-link" style="padding-left: 15px; font-size: 0.95rem; border-color: rgba(0,0,0,0.05);">Seeds</a>
+                <a href="/category/spices/" class="mobile-nav-link" style="padding-left: 15px; font-size: 0.95rem; border-color: rgba(0,0,0,0.05);">Spices</a>
+                <a href="/category/health-powders/" class="mobile-nav-link" style="padding-left: 15px; font-size: 0.95rem; border-color: rgba(0,0,0,0.05);">Health Powders</a>
+                <a href="/category/sweeteners/" class="mobile-nav-link" style="padding-left: 15px; font-size: 0.95rem; border-color: rgba(0,0,0,0.05);">Sweeteners</a>
+                <a href="/#heritage-section" class="mobile-nav-link" id="mob-nav-heritage">Our Heritage</a>
+                <a href="/#contact-section" class="mobile-nav-link" id="mob-nav-contact">Contact</a>
+            </nav>
+            <div class="mobile-search-wrapper">
+                <input type="text" placeholder="Search product..." id="mobile-search-input">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content Container -->
+    <div class="page-main-container">
+        
+    <!-- Category Hero Banner -->
+    <section class="category-hero-section" style="background: radial-gradient(circle at 10% 20%, rgba(46, 90, 68, 0.05) 0%, rgba(250, 247, 240, 1) 90%); border-bottom: 1px solid var(--color-border); padding: 60px 0 40px 0;">
+        <div class="container">
+            <div class="breadcrumb-container" style="padding-left:0; margin-bottom: 20px;">
+                <a href="/">Home</a> <i class="fa-solid fa-chevron-right"></i>
+                <span>Categories</span> <i class="fa-solid fa-chevron-right"></i>
+                <span>Pulses</span>
+            </div>
+            <div class="category-hero-content">
+                <span class="sub-heading">Shop By Category</span>
+                <h1 class="category-title" style="font-size:3rem; margin-bottom:12px;">Pulses Collection</h1>
+                <p class="category-desc" style="max-width: 700px; color: var(--color-text-muted); font-size:1.1rem; line-height:1.5;">Unpolished lentils, pulses, whole beans, and dals rich in protein and fiber, sourced directly from organic farmers.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Category Catalog Area -->
+    <section class="store-section" style="padding: 60px 0;">
+        <div class="store-container">
+            
+            <!-- Sidebar Filters -->
+            <aside class="store-sidebar" id="store-sidebar">
+                
+                <!-- Weight Filter Block -->
+                <div class="sidebar-block">
+                    <h3 class="sidebar-title">Filter by Weight</h3>
+                    <div class="checkbox-group" id="filter-weight-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="weight-filter" value="100g">
+                            <span class="custom-chk"></span> 100g
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="weight-filter" value="250g">
+                            <span class="custom-chk"></span> 250g
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="weight-filter" value="500g">
+                            <span class="custom-chk"></span> 500g
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="weight-filter" value="1kg">
+                            <span class="custom-chk"></span> 1kg
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="weight-filter" value="2kg">
+                            <span class="custom-chk"></span> 2kg
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="weight-filter" value="5kg">
+                            <span class="custom-chk"></span> 5kg
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Price Filter Block -->
+                <div class="sidebar-block">
+                    <h3 class="sidebar-title">Filter by Price</h3>
+                    <div class="checkbox-group" id="filter-price-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="price-filter" value="on-request">
+                            <span class="custom-chk"></span> Price on Request
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Availability Filter Block -->
+                <div class="sidebar-block">
+                    <h3 class="sidebar-title">Availability</h3>
+                    <div class="checkbox-group" id="filter-stock-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="stock-filter" value="in-stock" checked>
+                            <span class="custom-chk"></span> In Stock
+                        </label>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Product Grid panel -->
+            <main class="store-catalog">
+                
+                <!-- Search and Sorting header -->
+                <div class="catalog-controls">
+                    <div class="search-stats">
+                        Showing <span id="displayed-products-count" class="bold-count">0</span> of <span id="total-products-count">0</span> products in Pulses
+                    </div>
+                    <div class="controls-actions" style="display:flex; gap:16px; align-items:center;">
+                        <div class="filter-group" style="margin-bottom:0; display:flex; align-items:center; gap:8px;">
+                            <label for="category-sort-select" style="margin-bottom:0; white-space:nowrap;">Sort By</label>
+                            <select id="category-sort-select" class="form-control" style="width:180px; padding:6px 12px;" aria-label="Sort products">
+                                <option value="popular">Popular</option>
+                                <option value="new-arrivals">New Arrivals</option>
+                                <option value="price-low">Price: Low to High</option>
+                                <option value="price-high">Price: High to Low</option>
+                                <option value="name-asc">Alphabetical: A-Z</option>
+                                <option value="name-desc">Alphabetical: Z-A</option>
+                            </select>
+                        </div>
+                        <button class="mobile-filter-toggle-btn" id="mobile-filter-toggle-btn" style="padding: 8px 16px;">
+                            <i class="fa-solid fa-sliders"></i> Filters
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Grid container -->
+                <div class="products-grid" id="category-products-grid">
+                    <div class="grid-skeleton">
+                        <div class="skeleton-card"></div>
+                        <div class="skeleton-card"></div>
+                        <div class="skeleton-card"></div>
+                    </div>
+                </div>
+
+                <!-- No Results State -->
+                <div class="no-results-state hidden" id="no-results-state">
+                    <i class="fa-regular fa-face-frown-open"></i>
+                    <h3>No Products Found</h3>
+                    <p>No products match your active category filters. Try clearing some selections.</p>
+                </div>
+            </main>
+        </div>
+    </section>
+  
+    </div>
+
+    <!-- Cart Slide-out Drawer Panel -->
+    <div class="cart-drawer-backdrop" id="cart-drawer-backdrop">
+        <div class="cart-drawer-container" id="cart-drawer-container">
+            <div class="cart-drawer-header">
+                <h3><i class="fa-solid fa-basket-shopping"></i> Your Basket</h3>
+                <button class="cart-close-btn" id="cart-close-btn" aria-label="Close cart drawer">&times;</button>
+            </div>
+
+            <!-- Cart Body -->
+            <div class="cart-drawer-body">
+                <div class="cart-items-wrapper" id="cart-items-wrapper">
+                    <div class="empty-cart-state" id="empty-cart-state">
+                        <i class="fa-solid fa-basket-shopping empty-icon"></i>
+                        <h4>Your Basket is Empty</h4>
+                        <p>Explore our store to add stone-ground health mixes, traditional seeds, and jaggery products.</p>
+                        <a href="/#store-section" class="btn btn-primary" id="drawer-shop-now-btn">Shop Now</a>
+                    </div>
+                </div>
+
+                <!-- Checkout details form -->
+                <div class="checkout-form-wrapper hidden" id="checkout-form-wrapper">
+                    <h4 class="checkout-section-title">Delivery Details</h4>
+                    <form id="checkout-order-form" class="checkout-order-form">
+                        <div class="form-field">
+                            <label for="checkout-name">Full Name *</label>
+                            <input type="text" id="checkout-name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="checkout-phone">WhatsApp Mobile Number *</label>
+                            <input type="tel" id="checkout-phone" placeholder="10-digit number e.g. 9600750495" pattern="[6-9][0-9]{9}" required title="Please enter a valid 10 digit mobile number">
+                        </div>
+                        <div class="form-field" id="checkout-address-field">
+                            <label for="checkout-address" id="checkout-address-label">Delivery Address *</label>
+                            <textarea id="checkout-address" rows="3" placeholder="Door No, Street Name, Area, Pincode" required></textarea>
+                        </div>
+                        <div class="form-field">
+                            <label for="checkout-delivery">Delivery Mode</label>
+                            <select id="checkout-delivery">
+                                <option value="delivery">Home Delivery (Stops/Charges apply)</option>
+                                <option value="pickup">Self-Store Pickup (Nellikuppam Store)</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Cart Footer -->
+            <div class="cart-drawer-footer hidden" id="cart-drawer-footer">
+                <div class="price-breakdown">
+                    <div class="price-row">
+                        <span>Items Subtotal:</span>
+                        <span id="cart-subtotal-val">₹0.00</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Packaging & Delivery:</span>
+                        <span id="cart-delivery-val">Calculated on WhatsApp</span>
+                    </div>
+                    <div class="price-row total-row">
+                        <span>Total (Est.):</span>
+                        <span id="cart-total-val" class="final-total">₹0.00</span>
+                    </div>
+                </div>
+
+                <div class="cart-action-buttons">
+                    <button class="btn btn-primary btn-block" id="place-whatsapp-order-btn">
+                        <i class="fa-solid fa-credit-card"></i> Pay &amp; Confirm Order
+                    </button>
+                    <button class="btn btn-outline btn-block" id="clear-cart-btn">Clear Basket</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sticky Floating Action Button -->
+    <div class="floating-sticky-cart-btn" id="floating-sticky-cart-btn">
+        <i class="fa-solid fa-basket-shopping"></i>
+        <span class="floating-cart-badge" id="floating-cart-badge">0</span>
+    </div>
+
+    <!-- Footer -->
+    <footer class="main-footer" id="main-footer">
+        <div class="footer-grid">
+            <div class="footer-brand-col">
+                <img src="/assets/logo.jpg" alt="Amma Veedu Logo" class="footer-logo">
+                <h3>Amma Veedu</h3>
+                <p class="footer-brand-desc">
+                    Rooted in tradition, made with motherly love.<br>
+                    Bringing pure, farm-fresh, chemical-free organic foodstuffs straight to your home since 2020.
+                </p>
+                <p class="comrade-creations-text" style="font-size: 0.85rem; color: #B2A297; font-weight: 500; margin-top: 4px; margin-bottom: 4px;">
+                    A Proud Brand of Comrade Creations LLP
+                </p>
+                <p class="copyright-text">&copy; 2026 Amma Veedu Traditional Foods. All Rights Reserved.</p>
+            </div>
+
+            <div class="footer-links-col">
+                <h4>Product Categories</h4>
+                <ul>
+                    <li><a href="/category/cereals/" class="footer-category-link" data-cat="cereals">Cereals</a></li>
+                    <li><a href="/category/dry-fruits/" class="footer-category-link" data-cat="dry-fruits">Dry Fruits</a></li>
+                    <li><a href="/category/flour/" class="footer-category-link" data-cat="flour">Flour</a></li>
+                    <li><a href="/category/millets/" class="footer-category-link" data-cat="millets">Millets</a></li>
+                    <li><a href="/category/oil/" class="footer-category-link" data-cat="oil">Oil</a></li>
+                    <li><a href="/category/oil-seeds/" class="footer-category-link" data-cat="oil-seeds">Oil Seeds</a></li>
+                    <li><a href="/category/pulses/" class="footer-category-link" data-cat="pulses">Pulses</a></li>
+                    <li><a href="/category/rice/" class="footer-category-link" data-cat="rice">Rice</a></li>
+                    <li><a href="/category/salt/" class="footer-category-link" data-cat="salt">Salt</a></li>
+                    <li><a href="/category/seeds/" class="footer-category-link" data-cat="seeds">Seeds</a></li>
+                    <li><a href="/category/spices/" class="footer-category-link" data-cat="spices">Spices</a></li>
+                    <li><a href="/category/health-powders/" class="footer-category-link" data-cat="health-powders">Health Powders</a></li>
+                    <li><a href="/category/sweeteners/" class="footer-category-link" data-cat="sweeteners">Sweeteners</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links-col">
+                <h4>Useful Links</h4>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/#store-section">Our Store</a></li>
+                    <li><a href="/#heritage-section">Our Story</a></li>
+                    <li><a href="/#contact-section">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-subscribe-col">
+                <h4>Newsletter</h4>
+                <p>Subscribe to receive organic recipe ideas, traditional health tips, and exclusive discounts.</p>
+                <form id="newsletter-form" class="newsletter-form">
+                    <input type="email" placeholder="Your Email Address" required aria-label="Email address">
+                    <button type="submit"><i class="fa-solid fa-arrow-right-long"></i></button>
+                </form>
+                <div class="newsletter-msg hidden" id="newsletter-msg">Subscribed successfully!</div>
+                <div class="payment-badges-row">
+                    <i class="fa-brands fa-cc-visa" title="Visa"></i>
+                    <i class="fa-brands fa-cc-mastercard" title="Mastercard"></i>
+                    <i class="fa-solid fa-qrcode" title="UPI payments accepted"></i>
+                    <span class="upi-text">UPI / GPAY / WHATSAPP PAY</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS Scripts -->
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script type="module" src="/app.js"></script>
+</body>
+</html>

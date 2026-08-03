@@ -1,6 +1,7 @@
 {
   "name": "ammavedu-traditional-foods",
   "version": "1.0.0",
+  "type": "module",
   "description": "Amma Veedu Traditional Foods website",
   "main": "app.js",
   "scripts": {
