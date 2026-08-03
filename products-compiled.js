@@ -76,6 +76,24 @@ export const CATEGORIES = {
     "slug": "sweeteners",
     "icon": "fa-jar",
     "desc": "Natural sweeteners including organic jaggery granules, brown sugar, and sulphurless cane sugar."
+  },
+  "homemade-products": {
+    "name": "Homemade Snacks",
+    "slug": "homemade-products",
+    "icon": "fa-jar",
+    "desc": "Crispy traditional South Indian sweets and health snacks prepared using age-old family recipes, pure cow ghee, and native sweeteners."
+  },
+  "pickles-masalas": {
+    "name": "Pickles & Masalas",
+    "slug": "pickles-masalas",
+    "icon": "fa-pepper-hot",
+    "desc": "Tangy traditional pickles cured in wood-pressed oils and aromatic masalas prepared from premium hand-picked spices."
+  },
+  "homemade-vathal": {
+    "name": "Homemade Vathal",
+    "slug": "homemade-vathal",
+    "icon": "fa-sun",
+    "desc": "Hygienically sun-dried vegetable vathals and crisps, cured with sour curd or spices following South Indian tradition."
   }
 };
 
@@ -2283,5 +2301,483 @@ export const PRODUCTS = [
     "image": "/assets/placeholders/white-sulphurless-sugar.svg",
     "metaTitle": "White Sulphurless Sugar | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic White Sulphurless Sugar direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
+  },
+  {
+    "name": "Groundnut Chikki (Kadalai Mittai)",
+    "id": "groundnut-chikki",
+    "tamilName": "கடலை மிட்டாய்",
+    "category": "homemade-products",
+    "image": "/assets/groundnut_chikki.png",
+    "sizes": [
+      "250g"
+    ],
+    "tags": [
+      "natural-sweetener"
+    ],
+    "benefits": "High plant protein, rich in iron, healthy snack for children.",
+    "usage": "Ready-to-eat sweet treat.",
+    "shortDescription": "Discover the premium quality and authentic taste of our wholesome Groundnut Chikki (Kadalai Mittai) by Amma Veedu Traditional Foods. Sourced directly from local Indian farmers practicing pesticide-free agriculture, this high-grade Homemade Snacks staple is processed using traditional stone-ground or wood-pressed techniques to preserve all its natural minerals, vitamins, and health benefits.",
+    "description": "Incorporate the pure goodness of Amma Veedu Traditional Foods Groundnut Chikki (Kadalai Mittai) into your daily meals for a healthier lifestyle. Grown in pesticide-free soils by local farming cooperatives across India, this premium-grade Homemade Snacks product represents our dedication to supporting sustainable agriculture and reviving native food traditions. Every batch is sourced directly from farms and packaged under hygienic conditions to ensure that you receive the highest possible quality for your kitchen.\n\nOur careful, low-temperature processing methods are designed to protect the integrity of the grain, ensuring that essential macronutrients, dietary fibers, and minerals remain completely intact. Unlike mass-produced alternatives that undergo heavy chemical bleaching, our unrefined Groundnut Chikki (Kadalai Mittai) retains its native flavor profile and natural nutritional structure. This makes it an ideal choice for health-conscious families looking for clean, chemical-free food staples.\n\nThis versatile ingredient is extremely easy to use in your daily culinary routine. You can prepare delicious traditional recipes such as ready-to-eat sweet treat., offering a delightful flavor and satisfying texture. With positive health properties that assist in high plant protein, rich in iron, healthy snack for children., it provides daily nourishment for the entire family. Our products contain zero artificial colors, synthetic flavors, or chemical preservatives, bringing grandmother's kitchen-fresh purity straight to your home.",
+    "keyFeatures": [
+      "Prepared in hygienic, home-style kitchens using age-old family recipes.",
+      "Made with 100% natural ingredients and organic sweeteners like palm jaggery.",
+      "No artificial preservatives, synthetic colors, or chemical additives.",
+      "Rich in native nutrition and energy-boosting healthy fats like cow ghee.",
+      "Perfect traditional snack choice for the entire family's daily craving."
+    ],
+    "baseSku": "AVTF-HMS-GRCH",
+    "brand": "Amma Veedu Traditional Foods",
+    "countryOfOrigin": "India",
+    "stockQuantity": 100,
+    "mrp": null,
+    "price": null,
+    "barcodePlaceholder": "[BARCODE-AVTF-HMS-GRCH]",
+    "metaTitle": "Groundnut Chikki (Kadalai Mittai) | Amma Veedu Traditional Foods",
+    "metaDescription": "Buy premium organic Groundnut Chikki (Kadalai Mittai) direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
+  },
+  {
+    "name": "Sesame (Ellu) Urundai",
+    "id": "sesame-urundai",
+    "tamilName": "எள்ளு உருண்டை",
+    "category": "homemade-products",
+    "image": "/assets/sesame_urundai_cropped.jpg",
+    "sizes": [
+      "200g"
+    ],
+    "tags": [
+      "natural-sweetener"
+    ],
+    "benefits": "Rich in calcium, loaded with healthy fats, improves hair and skin health.",
+    "usage": "Ready-to-eat.",
+    "shortDescription": "Discover the premium quality and authentic taste of our wholesome Sesame (Ellu) Urundai by Amma Veedu Traditional Foods. Sourced directly from local Indian farmers practicing pesticide-free agriculture, this high-grade Homemade Snacks staple is processed using traditional stone-ground or wood-pressed techniques to preserve all its natural minerals, vitamins, and health benefits.",
+    "description": "Incorporate the pure goodness of Amma Veedu Traditional Foods Sesame (Ellu) Urundai into your daily meals for a healthier lifestyle. Grown in pesticide-free soils by local farming cooperatives across India, this premium-grade Homemade Snacks product represents our dedication to supporting sustainable agriculture and reviving native food traditions. Every batch is sourced directly from farms and packaged under hygienic conditions to ensure that you receive the highest possible quality for your kitchen.\n\nOur careful, low-temperature processing methods are designed to protect the integrity of the grain, ensuring that essential macronutrients, dietary fibers, and minerals remain completely intact. Unlike mass-produced alternatives that undergo heavy chemical bleaching, our unrefined Sesame (Ellu) Urundai retains its native flavor profile and natural nutritional structure. This makes it an ideal choice for health-conscious families looking for clean, chemical-free food staples.\n\nThis versatile ingredient is extremely easy to use in your daily culinary routine. You can prepare delicious traditional recipes such as ready-to-eat., offering a delightful flavor and satisfying texture. With positive health properties that assist in rich in calcium, loaded with healthy fats, improves hair and skin health., it provides daily nourishment for the entire family. Our products contain zero artificial colors, synthetic flavors, or chemical preservatives, bringing grandmother's kitchen-fresh purity straight to your home.",
+    "keyFeatures": [
+      "Prepared in hygienic, home-style kitchens using age-old family recipes.",
+      "Made with 100% natural ingredients and organic sweeteners like palm jaggery.",
+      "No artificial preservatives, synthetic colors, or chemical additives.",
+      "Rich in native nutrition and energy-boosting healthy fats like cow ghee.",
+      "Perfect traditional snack choice for the entire family's daily craving."
+    ],
+    "baseSku": "AVTF-HMS-SEEL",
+    "brand": "Amma Veedu Traditional Foods",
+    "countryOfOrigin": "India",
+    "stockQuantity": 100,
+    "mrp": null,
+    "price": null,
+    "barcodePlaceholder": "[BARCODE-AVTF-HMS-SEEL]",
+    "metaTitle": "Sesame (Ellu) Urundai | Amma Veedu Traditional Foods",
+    "metaDescription": "Buy premium organic Sesame (Ellu) Urundai direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
+  },
+  {
+    "name": "Peanut Urundai (Kadalai Urundai)",
+    "id": "peanut-urundai",
+    "tamilName": "கடலை உருண்டை",
+    "category": "homemade-products",
+    "image": "/assets/peanut_urundai.png",
+    "sizes": [
+      "200g"
+    ],
+    "tags": [
+      "natural-sweetener"
+    ],
+    "benefits": "Gives instant protein boost, healthy snacking alternative to candies.",
+    "usage": "Ready-to-eat.",
+    "shortDescription": "Discover the premium quality and authentic taste of our wholesome Peanut Urundai (Kadalai Urundai) by Amma Veedu Traditional Foods. Sourced directly from local Indian farmers practicing pesticide-free agriculture, this high-grade Homemade Snacks staple is processed using traditional stone-ground or wood-pressed techniques to preserve all its natural minerals, vitamins, and health benefits.",
+    "description": "Incorporate the pure goodness of Amma Veedu Traditional Foods Peanut Urundai (Kadalai Urundai) into your daily meals for a healthier lifestyle. Grown in pesticide-free soils by local farming cooperatives across India, this premium-grade Homemade Snacks product represents our dedication to supporting sustainable agriculture and reviving native food traditions. Every batch is sourced directly from farms and packaged under hygienic conditions to ensure that you receive the highest possible quality for your kitchen.\n\nOur careful, low-temperature processing methods are designed to protect the integrity of the grain, ensuring that essential macronutrients, dietary fibers, and minerals remain completely intact. Unlike mass-produced alternatives that undergo heavy chemical bleaching, our unrefined Peanut Urundai (Kadalai Urundai) retains its native flavor profile and natural nutritional structure. This makes it an ideal choice for health-conscious families looking for clean, chemical-free food staples.\n\nThis versatile ingredient is extremely easy to use in your daily culinary routine. You can prepare delicious traditional recipes such as ready-to-eat., offering a delightful flavor and satisfying texture. With positive health properties that assist in gives instant protein boost, healthy snacking alternative to candies., it provides daily nourishment for the entire family. Our products contain zero artificial colors, synthetic flavors, or chemical preservatives, bringing grandmother's kitchen-fresh purity straight to your home.",
+    "keyFeatures": [
+      "Prepared in hygienic, home-style kitchens using age-old family recipes.",
+      "Made with 100% natural ingredients and organic sweeteners like palm jaggery.",
+      "No artificial preservatives, synthetic colors, or chemical additives.",
+      "Rich in native nutrition and energy-boosting healthy fats like cow ghee.",
+      "Perfect traditional snack choice for the entire family's daily craving."
+    ],
+    "baseSku": "AVTF-HMS-PEUR",
+    "brand": "Amma Veedu Traditional Foods",
+    "countryOfOrigin": "India",
+    "stockQuantity": 100,
+    "mrp": null,
+    "price": null,
+    "barcodePlaceholder": "[BARCODE-AVTF-HMS-PEUR]",
+    "metaTitle": "Peanut Urundai (Kadalai Urundai) | Amma Veedu Traditional Foods",
+    "metaDescription": "Buy premium organic Peanut Urundai (Kadalai Urundai) direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
+  },
+  {
+    "name": "Kaaruppu uludhu laaddu",
+    "id": "karuppu-ulundu-laddu",
+    "tamilName": "கருப்பு உளுந்து லட்டு",
+    "category": "homemade-products",
+    "image": "/assets/black_gram_laddu.png",
+    "sizes": [
+      "250g"
+    ],
+    "tags": [
+      "natural-sweetener"
+    ],
+    "benefits": "Strengthens bones and spine, high protein content, excellent for women's health.",
+    "usage": "Ready-to-eat healthy sweet snack.",
+    "shortDescription": "Discover the premium quality and authentic taste of our wholesome Kaaruppu uludhu laaddu by Amma Veedu Traditional Foods. Sourced directly from local Indian farmers practicing pesticide-free agriculture, this high-grade Homemade Snacks staple is processed using traditional stone-ground or wood-pressed techniques to preserve all its natural minerals, vitamins, and health benefits.",
+    "description": "Incorporate the pure goodness of Amma Veedu Traditional Foods Kaaruppu uludhu laaddu into your daily meals for a healthier lifestyle. Grown in pesticide-free soils by local farming cooperatives across India, this premium-grade Homemade Snacks product represents our dedication to supporting sustainable agriculture and reviving native food traditions. Every batch is sourced directly from farms and packaged under hygienic conditions to ensure that you receive the highest possible quality for your kitchen.\n\nOur careful, low-temperature processing methods are designed to protect the integrity of the grain, ensuring that essential macronutrients, dietary fibers, and minerals remain completely intact. Unlike mass-produced alternatives that undergo heavy chemical bleaching, our unrefined Kaaruppu uludhu laaddu retains its native flavor profile and natural nutritional structure. This makes it an ideal choice for health-conscious families looking for clean, chemical-free food staples.\n\nThis versatile ingredient is extremely easy to use in your daily culinary routine. You can prepare delicious traditional recipes such as ready-to-eat healthy sweet snack., offering a delightful flavor and satisfying texture. With positive health properties that assist in strengthens bones and spine, high protein content, excellent for women's health., it provides daily nourishment for the entire family. Our products contain zero artificial colors, synthetic flavors, or chemical preservatives, bringing grandmother's kitchen-fresh purity straight to your home.",
+    "keyFeatures": [
+      "Prepared in hygienic, home-style kitchens using age-old family recipes.",
+      "Made with 100% natural ingredients and organic sweeteners like palm jaggery.",
+      "No artificial preservatives, synthetic colors, or chemical additives.",
+      "Rich in native nutrition and energy-boosting healthy fats like cow ghee.",
+      "Perfect traditional snack choice for the entire family's daily craving."
+    ],
+    "baseSku": "AVTF-HMS-KAUL",
+    "brand": "Amma Veedu Traditional Foods",
+    "countryOfOrigin": "India",
+    "stockQuantity": 100,
+    "mrp": null,
+    "price": null,
+    "barcodePlaceholder": "[BARCODE-AVTF-HMS-KAUL]",
+    "metaTitle": "Kaaruppu uludhu laaddu | Amma Veedu Traditional Foods",
+    "metaDescription": "Buy premium organic Kaaruppu uludhu laaddu direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
+  },
+  {
+    "name": "Karuvaepillai laaddu",
+    "id": "karuveppilai-laddu",
+    "tamilName": "கறிவேப்பிலை லட்டு",
+    "category": "homemade-products",
+    "image": "/assets/curry_leaf_laddu.png",
+    "sizes": [
+      "200g"
+    ],
+    "tags": [
+      "natural-sweetener",
+      "immunity"
+    ],
+    "benefits": "Rich source of iron, prevents hair fall, improves digestion and vision.",
+    "usage": "Ready-to-eat herbal snack.",
+    "shortDescription": "Discover the premium quality and authentic taste of our wholesome Karuvaepillai laaddu by Amma Veedu Traditional Foods. Sourced directly from local Indian farmers practicing pesticide-free agriculture, this high-grade Homemade Snacks staple is processed using traditional stone-ground or wood-pressed techniques to preserve all its natural minerals, vitamins, and health benefits.",
+    "description": "Incorporate the pure goodness of Amma Veedu Traditional Foods Karuvaepillai laaddu into your daily meals for a healthier lifestyle. Grown in pesticide-free soils by local farming cooperatives across India, this premium-grade Homemade Snacks product represents our dedication to supporting sustainable agriculture and reviving native food traditions. Every batch is sourced directly from farms and packaged under hygienic conditions to ensure that you receive the highest possible quality for your kitchen.\n\nOur careful, low-temperature processing methods are designed to protect the integrity of the grain, ensuring that essential macronutrients, dietary fibers, and minerals remain completely intact. Unlike mass-produced alternatives that undergo heavy chemical bleaching, our unrefined Karuvaepillai laaddu retains its native flavor profile and natural nutritional structure. This makes it an ideal choice for health-conscious families looking for clean, chemical-free food staples.\n\nThis versatile ingredient is extremely easy to use in your daily culinary routine. You can prepare delicious traditional recipes such as ready-to-eat herbal snack., offering a delightful flavor and satisfying texture. With positive health properties that assist in rich source of iron, prevents hair fall, improves digestion and vision., it provides daily nourishment for the entire family. Our products contain zero artificial colors, synthetic flavors, or chemical preservatives, bringing grandmother's kitchen-fresh purity straight to your home.",
+    "keyFeatures": [
+      "Prepared in hygienic, home-style kitchens using age-old family recipes.",
+      "Made with 100% natural ingredients and organic sweeteners like palm jaggery.",
+      "No artificial preservatives, synthetic colors, or chemical additives.",
+      "Rich in native nutrition and energy-boosting healthy fats like cow ghee.",
+      "Perfect traditional snack choice for the entire family's daily craving."
+    ],
+    "baseSku": "AVTF-HMS-KALA",
+    "brand": "Amma Veedu Traditional Foods",
+    "countryOfOrigin": "India",
+    "stockQuantity": 100,
+    "mrp": null,
+    "price": null,
+    "barcodePlaceholder": "[BARCODE-AVTF-HMS-KALA]",
+    "metaTitle": "Karuvaepillai laaddu | Amma Veedu Traditional Foods",
+    "metaDescription": "Buy premium organic Karuvaepillai laaddu direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
+  },
+  {
+    "name": "Red rice laaddu",
+    "id": "red-rice-laddu",
+    "tamilName": "சிகப்பரிசி லட்டு",
+    "category": "homemade-products",
+    "image": "/assets/red_rice_laddu.png",
+    "sizes": [
+      "250g"
+    ],
+    "tags": [
+      "natural-sweetener"
+    ],
+    "benefits": "Rich in fiber, boosts stamina, healthy snack for all age groups.",
+    "usage": "Ready-to-eat sweet snack.",
+    "shortDescription": "Discover the premium quality and authentic taste of our wholesome Red rice laaddu by Amma Veedu Traditional Foods. Sourced directly from local Indian farmers practicing pesticide-free agriculture, this high-grade Homemade Snacks staple is processed using traditional stone-ground or wood-pressed techniques to preserve all its natural minerals, vitamins, and health benefits.",
+    "description": "Incorporate the pure goodness of Amma Veedu Traditional Foods Red rice laaddu into your daily meals for a healthier lifestyle. Grown in pesticide-free soils by local farming cooperatives across India, this premium-grade Homemade Snacks product represents our dedication to supporting sustainable agriculture and reviving native food traditions. Every batch is sourced directly from farms and packaged under hygienic conditions to ensure that you receive the highest possible quality for your kitchen.\n\nOur careful, low-temperature processing methods are designed to protect the integrity of the grain, ensuring that essential macronutrients, dietary fibers, and minerals remain completely intact. Unlike mass-produced alternatives that undergo heavy chemical bleaching, our unrefined Red rice laaddu retains its native flavor profile and natural nutritional structure. This makes it an ideal choice for health-conscious families looking for clean, chemical-free food staples.\n\nThis versatile ingredient is extremely easy to use in your daily culinary routine. You can prepare delicious traditional recipes such as ready-to-eat sweet snack., offering a delightful flavor and satisfying texture. With positive health properties that assist in rich in fiber, boosts stamina, healthy snack for all age groups., it provides daily nourishment for the entire family. Our products contain zero artificial colors, synthetic flavors, or chemical preservatives, bringing grandmother's kitchen-fresh purity straight to your home.",
+    "keyFeatures": [
+      "Prepared in hygienic, home-style kitchens using age-old family recipes.",
+      "Made with 100% natural ingredients and organic sweeteners like palm jaggery.",
+      "No artificial preservatives, synthetic colors, or chemical additives.",
+      "Rich in native nutrition and energy-boosting healthy fats like cow ghee.",
+      "Perfect traditional snack choice for the entire family's daily craving."
+    ],
+    "baseSku": "AVTF-HMS-RERI",
+    "brand": "Amma Veedu Traditional Foods",
+    "countryOfOrigin": "India",
+    "stockQuantity": 100,
+    "mrp": null,
+    "price": null,
+    "barcodePlaceholder": "[BARCODE-AVTF-HMS-RERI]",
+    "metaTitle": "Red rice laaddu | Amma Veedu Traditional Foods",
+    "metaDescription": "Buy premium organic Red rice laaddu direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
+  },
+  {
+    "name": "Mango Pickle",
+    "id": "mango-pickle",
+    "tamilName": "மாங்காய் ஊறுகாய்",
+    "category": "pickles-masalas",
+    "image": "/assets/mango_pickle.jpg",
+    "sizes": [
+      "250g"
+    ],
+    "tags": [],
+    "benefits": "Boosts appetite, assists in digestion, contains healthy sesame oil fats.",
+    "usage": "Serve with curd rice, idli, dosa, or hot rice.",
+    "shortDescription": "Discover the premium quality and authentic taste of our wholesome Mango Pickle by Amma Veedu Traditional Foods. Sourced directly from local Indian farmers practicing pesticide-free agriculture, this high-grade Pickles & Masalas staple is processed using traditional stone-ground or wood-pressed techniques to preserve all its natural minerals, vitamins, and health benefits.",
+    "description": "Incorporate the pure goodness of Amma Veedu Traditional Foods Mango Pickle into your daily meals for a healthier lifestyle. Grown in pesticide-free soils by local farming cooperatives across India, this premium-grade Pickles & Masalas product represents our dedication to supporting sustainable agriculture and reviving native food traditions. Every batch is sourced directly from farms and packaged under hygienic conditions to ensure that you receive the highest possible quality for your kitchen.\n\nOur careful, low-temperature processing methods are designed to protect the integrity of the grain, ensuring that essential macronutrients, dietary fibers, and minerals remain completely intact. Unlike mass-produced alternatives that undergo heavy chemical bleaching, our unrefined Mango Pickle retains its native flavor profile and natural nutritional structure. This makes it an ideal choice for health-conscious families looking for clean, chemical-free food staples.\n\nThis versatile ingredient is extremely easy to use in your daily culinary routine. You can prepare delicious traditional recipes such as serve with curd rice, idli, dosa, or hot rice., offering a delightful flavor and satisfying texture. With positive health properties that assist in boosts appetite, assists in digestion, contains healthy sesame oil fats., it provides daily nourishment for the entire family. Our products contain zero artificial colors, synthetic flavors, or chemical preservatives, bringing grandmother's kitchen-fresh purity straight to your home.",
+    "keyFeatures": [
+      "Prepared in traditional small batches to retain homemade quality.",
+      "Cured using cold-pressed sesame or gingelly oil for natural preservation.",
+      "Made with premium sun-dried spices and freshly ground spice mixes.",
+      "Free from vinegar, synthetic food acids, and chemical preservatives.",
+      "Perfect accompaniment to elevate your daily rice, idli, or dosa meals."
+    ],
+    "baseSku": "AVTF-PKM-MAPI",
+    "brand": "Amma Veedu Traditional Foods",
+    "countryOfOrigin": "India",
+    "stockQuantity": 100,
+    "mrp": null,
+    "price": null,
+    "barcodePlaceholder": "[BARCODE-AVTF-PKM-MAPI]",
+    "metaTitle": "Mango Pickle | Amma Veedu Traditional Foods",
+    "metaDescription": "Buy premium organic Mango Pickle direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
+  },
+  {
+    "name": "Lemon Pickle",
+    "id": "lemon-pickle",
+    "tamilName": "எலுமிச்சை ஊறுகாய்",
+    "category": "pickles-masalas",
+    "image": "/assets/lemon_pickle.jpg",
+    "sizes": [
+      "250g"
+    ],
+    "tags": [],
+    "benefits": "Vitamin C source, aids in digestion, zero artificial chemical preservatives.",
+    "usage": "Goes wonderfully with curd rice and variety rices.",
+    "shortDescription": "Discover the premium quality and authentic taste of our wholesome Lemon Pickle by Amma Veedu Traditional Foods. Sourced directly from local Indian farmers practicing pesticide-free agriculture, this high-grade Pickles & Masalas staple is processed using traditional stone-ground or wood-pressed techniques to preserve all its natural minerals, vitamins, and health benefits.",
+    "description": "Incorporate the pure goodness of Amma Veedu Traditional Foods Lemon Pickle into your daily meals for a healthier lifestyle. Grown in pesticide-free soils by local farming cooperatives across India, this premium-grade Pickles & Masalas product represents our dedication to supporting sustainable agriculture and reviving native food traditions. Every batch is sourced directly from farms and packaged under hygienic conditions to ensure that you receive the highest possible quality for your kitchen.\n\nOur careful, low-temperature processing methods are designed to protect the integrity of the grain, ensuring that essential macronutrients, dietary fibers, and minerals remain completely intact. Unlike mass-produced alternatives that undergo heavy chemical bleaching, our unrefined Lemon Pickle retains its native flavor profile and natural nutritional structure. This makes it an ideal choice for health-conscious families looking for clean, chemical-free food staples.\n\nThis versatile ingredient is extremely easy to use in your daily culinary routine. You can prepare delicious traditional recipes such as goes wonderfully with curd rice and variety rices., offering a delightful flavor and satisfying texture. With positive health properties that assist in vitamin c source, aids in digestion, zero artificial chemical preservatives., it provides daily nourishment for the entire family. Our products contain zero artificial colors, synthetic flavors, or chemical preservatives, bringing grandmother's kitchen-fresh purity straight to your home.",
+    "keyFeatures": [
+      "Prepared in traditional small batches to retain homemade quality.",
+      "Cured using cold-pressed sesame or gingelly oil for natural preservation.",
+      "Made with premium sun-dried spices and freshly ground spice mixes.",
+      "Free from vinegar, synthetic food acids, and chemical preservatives.",
+      "Perfect accompaniment to elevate your daily rice, idli, or dosa meals."
+    ],
+    "baseSku": "AVTF-PKM-LEPI",
+    "brand": "Amma Veedu Traditional Foods",
+    "countryOfOrigin": "India",
+    "stockQuantity": 100,
+    "mrp": null,
+    "price": null,
+    "barcodePlaceholder": "[BARCODE-AVTF-PKM-LEPI]",
+    "metaTitle": "Lemon Pickle | Amma Veedu Traditional Foods",
+    "metaDescription": "Buy premium organic Lemon Pickle direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
+  },
+  {
+    "name": "Idli Podi (Gunpowder)",
+    "id": "idli-podi",
+    "tamilName": "இட்லி பொடி",
+    "category": "pickles-masalas",
+    "image": "/assets/idli_podi.png",
+    "sizes": [
+      "100g"
+    ],
+    "tags": [],
+    "benefits": "High protein from lentils, convenient side dish.",
+    "usage": "Mix with wood-pressed sesame oil or ghee and use as dip for hot idlis and dosas.",
+    "shortDescription": "Discover the premium quality and authentic taste of our wholesome Idli Podi (Gunpowder) by Amma Veedu Traditional Foods. Sourced directly from local Indian farmers practicing pesticide-free agriculture, this high-grade Pickles & Masalas staple is processed using traditional stone-ground or wood-pressed techniques to preserve all its natural minerals, vitamins, and health benefits.",
+    "description": "Incorporate the pure goodness of Amma Veedu Traditional Foods Idli Podi (Gunpowder) into your daily meals for a healthier lifestyle. Grown in pesticide-free soils by local farming cooperatives across India, this premium-grade Pickles & Masalas product represents our dedication to supporting sustainable agriculture and reviving native food traditions. Every batch is sourced directly from farms and packaged under hygienic conditions to ensure that you receive the highest possible quality for your kitchen.\n\nOur careful, low-temperature processing methods are designed to protect the integrity of the grain, ensuring that essential macronutrients, dietary fibers, and minerals remain completely intact. Unlike mass-produced alternatives that undergo heavy chemical bleaching, our unrefined Idli Podi (Gunpowder) retains its native flavor profile and natural nutritional structure. This makes it an ideal choice for health-conscious families looking for clean, chemical-free food staples.\n\nThis versatile ingredient is extremely easy to use in your daily culinary routine. You can prepare delicious traditional recipes such as mix with wood-pressed sesame oil or ghee and use as dip for hot idlis and dosas., offering a delightful flavor and satisfying texture. With positive health properties that assist in high protein from lentils, convenient side dish., it provides daily nourishment for the entire family. Our products contain zero artificial colors, synthetic flavors, or chemical preservatives, bringing grandmother's kitchen-fresh purity straight to your home.",
+    "keyFeatures": [
+      "Prepared in traditional small batches to retain homemade quality.",
+      "Cured using cold-pressed sesame or gingelly oil for natural preservation.",
+      "Made with premium sun-dried spices and freshly ground spice mixes.",
+      "Free from vinegar, synthetic food acids, and chemical preservatives.",
+      "Perfect accompaniment to elevate your daily rice, idli, or dosa meals."
+    ],
+    "baseSku": "AVTF-PKM-IDPO",
+    "brand": "Amma Veedu Traditional Foods",
+    "countryOfOrigin": "India",
+    "stockQuantity": 100,
+    "mrp": null,
+    "price": null,
+    "barcodePlaceholder": "[BARCODE-AVTF-PKM-IDPO]",
+    "metaTitle": "Idli Podi (Gunpowder) | Amma Veedu Traditional Foods",
+    "metaDescription": "Buy premium organic Idli Podi (Gunpowder) direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
+  },
+  {
+    "name": "Kulambu Milagai Thool",
+    "id": "kulambu-milagai-thool",
+    "tamilName": "குழம்பு மிளகாய்த் தூள்",
+    "category": "pickles-masalas",
+    "image": "/assets/kulambu_milagai_thool.jpg",
+    "sizes": [
+      "500g"
+    ],
+    "tags": [],
+    "benefits": "One-stop masala for all South Indian kuzhambu varieties.",
+    "usage": "Add to tamarind base for Vatha Kuzhambu, Garlic Kuzhambu, or fish curry.",
+    "shortDescription": "Discover the premium quality and authentic taste of our wholesome Kulambu Milagai Thool by Amma Veedu Traditional Foods. Sourced directly from local Indian farmers practicing pesticide-free agriculture, this high-grade Pickles & Masalas staple is processed using traditional stone-ground or wood-pressed techniques to preserve all its natural minerals, vitamins, and health benefits.",
+    "description": "Incorporate the pure goodness of Amma Veedu Traditional Foods Kulambu Milagai Thool into your daily meals for a healthier lifestyle. Grown in pesticide-free soils by local farming cooperatives across India, this premium-grade Pickles & Masalas product represents our dedication to supporting sustainable agriculture and reviving native food traditions. Every batch is sourced directly from farms and packaged under hygienic conditions to ensure that you receive the highest possible quality for your kitchen.\n\nOur careful, low-temperature processing methods are designed to protect the integrity of the grain, ensuring that essential macronutrients, dietary fibers, and minerals remain completely intact. Unlike mass-produced alternatives that undergo heavy chemical bleaching, our unrefined Kulambu Milagai Thool retains its native flavor profile and natural nutritional structure. This makes it an ideal choice for health-conscious families looking for clean, chemical-free food staples.\n\nThis versatile ingredient is extremely easy to use in your daily culinary routine. You can prepare delicious traditional recipes such as add to tamarind base for vatha kuzhambu, garlic kuzhambu, or fish curry., offering a delightful flavor and satisfying texture. With positive health properties that assist in one-stop masala for all south indian kuzhambu varieties., it provides daily nourishment for the entire family. Our products contain zero artificial colors, synthetic flavors, or chemical preservatives, bringing grandmother's kitchen-fresh purity straight to your home.",
+    "keyFeatures": [
+      "Prepared in traditional small batches to retain homemade quality.",
+      "Cured using cold-pressed sesame or gingelly oil for natural preservation.",
+      "Made with premium sun-dried spices and freshly ground spice mixes.",
+      "Free from vinegar, synthetic food acids, and chemical preservatives.",
+      "Perfect accompaniment to elevate your daily rice, idli, or dosa meals."
+    ],
+    "baseSku": "AVTF-PKM-KUMI",
+    "brand": "Amma Veedu Traditional Foods",
+    "countryOfOrigin": "India",
+    "stockQuantity": 100,
+    "mrp": null,
+    "price": null,
+    "barcodePlaceholder": "[BARCODE-AVTF-PKM-KUMI]",
+    "metaTitle": "Kulambu Milagai Thool | Amma Veedu Traditional Foods",
+    "metaDescription": "Buy premium organic Kulambu Milagai Thool direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
+  },
+  {
+    "name": "Curry Leaves Powder (Karuveppilai Podi)",
+    "id": "curry-leaves-powder",
+    "tamilName": "கறிவேப்பிலை பொடி",
+    "category": "pickles-masalas",
+    "image": "/assets/curry_leaves_powder.jpg",
+    "sizes": [
+      "100g"
+    ],
+    "tags": [],
+    "benefits": "Excellent source of iron and antioxidants. Helps improve digestion and promotes hair growth.",
+    "usage": "Mix with hot rice and ghee/sesame oil, or serve as a flavorful side for idli and dosa.",
+    "shortDescription": "Discover the premium quality and authentic taste of our wholesome Curry Leaves Powder (Karuveppilai Podi) by Amma Veedu Traditional Foods. Sourced directly from local Indian farmers practicing pesticide-free agriculture, this high-grade Pickles & Masalas staple is processed using traditional stone-ground or wood-pressed techniques to preserve all its natural minerals, vitamins, and health benefits.",
+    "description": "Incorporate the pure goodness of Amma Veedu Traditional Foods Curry Leaves Powder (Karuveppilai Podi) into your daily meals for a healthier lifestyle. Grown in pesticide-free soils by local farming cooperatives across India, this premium-grade Pickles & Masalas product represents our dedication to supporting sustainable agriculture and reviving native food traditions. Every batch is sourced directly from farms and packaged under hygienic conditions to ensure that you receive the highest possible quality for your kitchen.\n\nOur careful, low-temperature processing methods are designed to protect the integrity of the grain, ensuring that essential macronutrients, dietary fibers, and minerals remain completely intact. Unlike mass-produced alternatives that undergo heavy chemical bleaching, our unrefined Curry Leaves Powder (Karuveppilai Podi) retains its native flavor profile and natural nutritional structure. This makes it an ideal choice for health-conscious families looking for clean, chemical-free food staples.\n\nThis versatile ingredient is extremely easy to use in your daily culinary routine. You can prepare delicious traditional recipes such as mix with hot rice and ghee/sesame oil, or serve as a flavorful side for idli and dosa., offering a delightful flavor and satisfying texture. With positive health properties that assist in excellent source of iron and antioxidants. helps improve digestion and promotes hair growth., it provides daily nourishment for the entire family. Our products contain zero artificial colors, synthetic flavors, or chemical preservatives, bringing grandmother's kitchen-fresh purity straight to your home.",
+    "keyFeatures": [
+      "Prepared in traditional small batches to retain homemade quality.",
+      "Cured using cold-pressed sesame or gingelly oil for natural preservation.",
+      "Made with premium sun-dried spices and freshly ground spice mixes.",
+      "Free from vinegar, synthetic food acids, and chemical preservatives.",
+      "Perfect accompaniment to elevate your daily rice, idli, or dosa meals."
+    ],
+    "baseSku": "AVTF-PKM-CULE",
+    "brand": "Amma Veedu Traditional Foods",
+    "countryOfOrigin": "India",
+    "stockQuantity": 100,
+    "mrp": null,
+    "price": null,
+    "barcodePlaceholder": "[BARCODE-AVTF-PKM-CULE]",
+    "metaTitle": "Curry Leaves Powder (Karuveppilai Podi) | Amma Veedu Traditional Foods",
+    "metaDescription": "Buy premium organic Curry Leaves Powder (Karuveppilai Podi) direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
+  },
+  {
+    "name": "Beetroot Vathal",
+    "id": "beetroot-vathal",
+    "tamilName": "பீட்ரூட் வத்தல்",
+    "category": "homemade-vathal",
+    "image": "/assets/beetroot_vathal.png",
+    "sizes": [
+      "250g"
+    ],
+    "tags": [],
+    "benefits": "Retains organic nitrates and fiber of beetroots, zero preservatives, natural snack.",
+    "usage": "Deep fry in hot oil for 5-10 seconds until crispy. Serve with variety rice or curd rice.",
+    "shortDescription": "Discover the premium quality and authentic taste of our wholesome Beetroot Vathal by Amma Veedu Traditional Foods. Sourced directly from local Indian farmers practicing pesticide-free agriculture, this high-grade Homemade Vathal staple is processed using traditional stone-ground or wood-pressed techniques to preserve all its natural minerals, vitamins, and health benefits.",
+    "description": "Incorporate the pure goodness of Amma Veedu Traditional Foods Beetroot Vathal into your daily meals for a healthier lifestyle. Grown in pesticide-free soils by local farming cooperatives across India, this premium-grade Homemade Vathal product represents our dedication to supporting sustainable agriculture and reviving native food traditions. Every batch is sourced directly from farms and packaged under hygienic conditions to ensure that you receive the highest possible quality for your kitchen.\n\nOur careful, low-temperature processing methods are designed to protect the integrity of the grain, ensuring that essential macronutrients, dietary fibers, and minerals remain completely intact. Unlike mass-produced alternatives that undergo heavy chemical bleaching, our unrefined Beetroot Vathal retains its native flavor profile and natural nutritional structure. This makes it an ideal choice for health-conscious families looking for clean, chemical-free food staples.\n\nThis versatile ingredient is extremely easy to use in your daily culinary routine. You can prepare delicious traditional recipes such as deep fry in hot oil for 5-10 seconds until crispy. serve with variety rice or curd rice., offering a delightful flavor and satisfying texture. With positive health properties that assist in retains organic nitrates and fiber of beetroots, zero preservatives, natural snack., it provides daily nourishment for the entire family. Our products contain zero artificial colors, synthetic flavors, or chemical preservatives, bringing grandmother's kitchen-fresh purity straight to your home.",
+    "keyFeatures": [
+      "Traditionally hand-pressed or sliced and hygienically sun-dried.",
+      "Cured with natural sea salt and traditional spices or sour curd.",
+      "Made from fresh, premium quality organic vegetables.",
+      "100% preservative-free natural crisps with long shelf life.",
+      "Deliciously crunchy side dish when fried, perfect for variety rice meals."
+    ],
+    "baseSku": "AVTF-HMV-BEVA",
+    "brand": "Amma Veedu Traditional Foods",
+    "countryOfOrigin": "India",
+    "stockQuantity": 100,
+    "mrp": null,
+    "price": null,
+    "barcodePlaceholder": "[BARCODE-AVTF-HMV-BEVA]",
+    "metaTitle": "Beetroot Vathal | Amma Veedu Traditional Foods",
+    "metaDescription": "Buy premium organic Beetroot Vathal direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
+  },
+  {
+    "name": "Carrot Vathal",
+    "id": "carrot-vathal",
+    "tamilName": "கேரட் வத்தல்",
+    "category": "homemade-vathal",
+    "image": "/assets/carrot_vathal.jpg",
+    "sizes": [
+      "250g"
+    ],
+    "tags": [],
+    "benefits": "Rich in beta-carotene and dietary fibers, no added artificial color.",
+    "usage": "Deep fry in oil and enjoy as a crunchy side dish for South Indian meals.",
+    "shortDescription": "Discover the premium quality and authentic taste of our wholesome Carrot Vathal by Amma Veedu Traditional Foods. Sourced directly from local Indian farmers practicing pesticide-free agriculture, this high-grade Homemade Vathal staple is processed using traditional stone-ground or wood-pressed techniques to preserve all its natural minerals, vitamins, and health benefits.",
+    "description": "Incorporate the pure goodness of Amma Veedu Traditional Foods Carrot Vathal into your daily meals for a healthier lifestyle. Grown in pesticide-free soils by local farming cooperatives across India, this premium-grade Homemade Vathal product represents our dedication to supporting sustainable agriculture and reviving native food traditions. Every batch is sourced directly from farms and packaged under hygienic conditions to ensure that you receive the highest possible quality for your kitchen.\n\nOur careful, low-temperature processing methods are designed to protect the integrity of the grain, ensuring that essential macronutrients, dietary fibers, and minerals remain completely intact. Unlike mass-produced alternatives that undergo heavy chemical bleaching, our unrefined Carrot Vathal retains its native flavor profile and natural nutritional structure. This makes it an ideal choice for health-conscious families looking for clean, chemical-free food staples.\n\nThis versatile ingredient is extremely easy to use in your daily culinary routine. You can prepare delicious traditional recipes such as deep fry in oil and enjoy as a crunchy side dish for south indian meals., offering a delightful flavor and satisfying texture. With positive health properties that assist in rich in beta-carotene and dietary fibers, no added artificial color., it provides daily nourishment for the entire family. Our products contain zero artificial colors, synthetic flavors, or chemical preservatives, bringing grandmother's kitchen-fresh purity straight to your home.",
+    "keyFeatures": [
+      "Traditionally hand-pressed or sliced and hygienically sun-dried.",
+      "Cured with natural sea salt and traditional spices or sour curd.",
+      "Made from fresh, premium quality organic vegetables.",
+      "100% preservative-free natural crisps with long shelf life.",
+      "Deliciously crunchy side dish when fried, perfect for variety rice meals."
+    ],
+    "baseSku": "AVTF-HMV-CAVA",
+    "brand": "Amma Veedu Traditional Foods",
+    "countryOfOrigin": "India",
+    "stockQuantity": 100,
+    "mrp": null,
+    "price": null,
+    "barcodePlaceholder": "[BARCODE-AVTF-HMV-CAVA]",
+    "metaTitle": "Carrot Vathal | Amma Veedu Traditional Foods",
+    "metaDescription": "Buy premium organic Carrot Vathal direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
+  },
+  {
+    "name": "Pumpkin / Poosanikkai Vathal",
+    "id": "poosanikkai-vathal",
+    "tamilName": "பூசணிக்காய் வத்தல்",
+    "category": "homemade-vathal",
+    "image": "/assets/poosanikkai_vathal.png",
+    "sizes": [
+      "250g"
+    ],
+    "tags": [],
+    "benefits": "Highly alkaline superfood, cools the body, aids digestion.",
+    "usage": "Fry in hot oil till crispy and golden. Best paired with sambar or rasam rice.",
+    "shortDescription": "Discover the premium quality and authentic taste of our wholesome Pumpkin / Poosanikkai Vathal by Amma Veedu Traditional Foods. Sourced directly from local Indian farmers practicing pesticide-free agriculture, this high-grade Homemade Vathal staple is processed using traditional stone-ground or wood-pressed techniques to preserve all its natural minerals, vitamins, and health benefits.",
+    "description": "Incorporate the pure goodness of Amma Veedu Traditional Foods Pumpkin / Poosanikkai Vathal into your daily meals for a healthier lifestyle. Grown in pesticide-free soils by local farming cooperatives across India, this premium-grade Homemade Vathal product represents our dedication to supporting sustainable agriculture and reviving native food traditions. Every batch is sourced directly from farms and packaged under hygienic conditions to ensure that you receive the highest possible quality for your kitchen.\n\nOur careful, low-temperature processing methods are designed to protect the integrity of the grain, ensuring that essential macronutrients, dietary fibers, and minerals remain completely intact. Unlike mass-produced alternatives that undergo heavy chemical bleaching, our unrefined Pumpkin / Poosanikkai Vathal retains its native flavor profile and natural nutritional structure. This makes it an ideal choice for health-conscious families looking for clean, chemical-free food staples.\n\nThis versatile ingredient is extremely easy to use in your daily culinary routine. You can prepare delicious traditional recipes such as fry in hot oil till crispy and golden. best paired with sambar or rasam rice., offering a delightful flavor and satisfying texture. With positive health properties that assist in highly alkaline superfood, cools the body, aids digestion., it provides daily nourishment for the entire family. Our products contain zero artificial colors, synthetic flavors, or chemical preservatives, bringing grandmother's kitchen-fresh purity straight to your home.",
+    "keyFeatures": [
+      "Traditionally hand-pressed or sliced and hygienically sun-dried.",
+      "Cured with natural sea salt and traditional spices or sour curd.",
+      "Made from fresh, premium quality organic vegetables.",
+      "100% preservative-free natural crisps with long shelf life.",
+      "Deliciously crunchy side dish when fried, perfect for variety rice meals."
+    ],
+    "baseSku": "AVTF-HMV-PUPO",
+    "brand": "Amma Veedu Traditional Foods",
+    "countryOfOrigin": "India",
+    "stockQuantity": 100,
+    "mrp": null,
+    "price": null,
+    "barcodePlaceholder": "[BARCODE-AVTF-HMV-PUPO]",
+    "metaTitle": "Pumpkin / Poosanikkai Vathal | Amma Veedu Traditional Foods",
+    "metaDescription": "Buy premium organic Pumpkin / Poosanikkai Vathal direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
+  },
+  {
+    "name": "Onion Vathal",
+    "id": "onion-vathal",
+    "tamilName": "வெங்காய வத்தல்",
+    "category": "homemade-vathal",
+    "image": "/assets/onion_vathal.png",
+    "sizes": [
+      "250g"
+    ],
+    "tags": [],
+    "benefits": "Imparts rich onion flavor, stimulates digestion, completely homemade.",
+    "usage": "Deep fry in oil to eat as side dish, or use as tempering (tadka) for traditional curries.",
+    "shortDescription": "Discover the premium quality and authentic taste of our wholesome Onion Vathal by Amma Veedu Traditional Foods. Sourced directly from local Indian farmers practicing pesticide-free agriculture, this high-grade Homemade Vathal staple is processed using traditional stone-ground or wood-pressed techniques to preserve all its natural minerals, vitamins, and health benefits.",
+    "description": "Incorporate the pure goodness of Amma Veedu Traditional Foods Onion Vathal into your daily meals for a healthier lifestyle. Grown in pesticide-free soils by local farming cooperatives across India, this premium-grade Homemade Vathal product represents our dedication to supporting sustainable agriculture and reviving native food traditions. Every batch is sourced directly from farms and packaged under hygienic conditions to ensure that you receive the highest possible quality for your kitchen.\n\nOur careful, low-temperature processing methods are designed to protect the integrity of the grain, ensuring that essential macronutrients, dietary fibers, and minerals remain completely intact. Unlike mass-produced alternatives that undergo heavy chemical bleaching, our unrefined Onion Vathal retains its native flavor profile and natural nutritional structure. This makes it an ideal choice for health-conscious families looking for clean, chemical-free food staples.\n\nThis versatile ingredient is extremely easy to use in your daily culinary routine. You can prepare delicious traditional recipes such as deep fry in oil to eat as side dish, or use as tempering (tadka) for traditional curries., offering a delightful flavor and satisfying texture. With positive health properties that assist in imparts rich onion flavor, stimulates digestion, completely homemade., it provides daily nourishment for the entire family. Our products contain zero artificial colors, synthetic flavors, or chemical preservatives, bringing grandmother's kitchen-fresh purity straight to your home.",
+    "keyFeatures": [
+      "Traditionally hand-pressed or sliced and hygienically sun-dried.",
+      "Cured with natural sea salt and traditional spices or sour curd.",
+      "Made from fresh, premium quality organic vegetables.",
+      "100% preservative-free natural crisps with long shelf life.",
+      "Deliciously crunchy side dish when fried, perfect for variety rice meals."
+    ],
+    "baseSku": "AVTF-HMV-ONVA",
+    "brand": "Amma Veedu Traditional Foods",
+    "countryOfOrigin": "India",
+    "stockQuantity": 100,
+    "mrp": null,
+    "price": null,
+    "barcodePlaceholder": "[BARCODE-AVTF-HMV-ONVA]",
+    "metaTitle": "Onion Vathal | Amma Veedu Traditional Foods",
+    "metaDescription": "Buy premium organic Onion Vathal direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   }
 ];

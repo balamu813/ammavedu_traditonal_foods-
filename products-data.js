@@ -1,5 +1,5 @@
 // Amma Veedu Traditional Foods - Product and Category Database
-// 13 Categories and 63 Products
+// 16 Categories and 76 Products
 
 export const CATEGORIES = {
   "cereals": {
@@ -79,6 +79,24 @@ export const CATEGORIES = {
     slug: "sweeteners",
     icon: "fa-jar",
     desc: "Natural sweeteners including organic jaggery granules, brown sugar, and sulphurless cane sugar."
+  },
+  "homemade-products": {
+    name: "Homemade Snacks",
+    slug: "homemade-products",
+    icon: "fa-jar",
+    desc: "Crispy traditional South Indian sweets and health snacks prepared using age-old family recipes, pure cow ghee, and native sweeteners."
+  },
+  "pickles-masalas": {
+    name: "Pickles & Masalas",
+    slug: "pickles-masalas",
+    icon: "fa-pepper-hot",
+    desc: "Tangy traditional pickles cured in wood-pressed oils and aromatic masalas prepared from premium hand-picked spices."
+  },
+  "homemade-vathal": {
+    name: "Homemade Vathal",
+    slug: "homemade-vathal",
+    icon: "fa-sun",
+    desc: "Hygienically sun-dried vegetable vathals and crisps, cured with sour curd or spices following South Indian tradition."
   }
 };
 
@@ -721,5 +739,176 @@ export const PRODUCTS_RAW = [
     tags: ["chemical-free", "sweetener"],
     benefits: "Clarified without harmful sulphur dioxide, provides clean sweetness, and free from chemical residues.",
     usage: "Use in standard coffee, baking, traditional sweets, and daily cooking recipes where white sugar is required."
+  },
+
+  // 14. Homemade Snacks (6 items)
+  {
+    name: "Groundnut Chikki (Kadalai Mittai)",
+    id: "groundnut-chikki",
+    tamilName: "கடலை மிட்டாய்",
+    category: "homemade-products",
+    image: "/assets/groundnut_chikki.png",
+    sizes: ["250g"],
+    tags: ["natural-sweetener"],
+    benefits: "High plant protein, rich in iron, healthy snack for children.",
+    usage: "Ready-to-eat sweet treat."
+  },
+  {
+    name: "Sesame (Ellu) Urundai",
+    id: "sesame-urundai",
+    tamilName: "எள்ளு உருண்டை",
+    category: "homemade-products",
+    image: "/assets/sesame_urundai_cropped.jpg",
+    sizes: ["200g"],
+    tags: ["natural-sweetener"],
+    benefits: "Rich in calcium, loaded with healthy fats, improves hair and skin health.",
+    usage: "Ready-to-eat."
+  },
+  {
+    name: "Peanut Urundai (Kadalai Urundai)",
+    id: "peanut-urundai",
+    tamilName: "கடலை உருண்டை",
+    category: "homemade-products",
+    image: "/assets/peanut_urundai.png",
+    sizes: ["200g"],
+    tags: ["natural-sweetener"],
+    benefits: "Gives instant protein boost, healthy snacking alternative to candies.",
+    usage: "Ready-to-eat."
+  },
+  {
+    name: "Kaaruppu uludhu laaddu",
+    id: "karuppu-ulundu-laddu",
+    tamilName: "கருப்பு உளுந்து லட்டு",
+    category: "homemade-products",
+    image: "/assets/black_gram_laddu.png",
+    sizes: ["250g"],
+    tags: ["natural-sweetener"],
+    benefits: "Strengthens bones and spine, high protein content, excellent for women's health.",
+    usage: "Ready-to-eat healthy sweet snack."
+  },
+  {
+    name: "Karuvaepillai laaddu",
+    id: "karuveppilai-laddu",
+    tamilName: "கறிவேப்பிலை லட்டு",
+    category: "homemade-products",
+    image: "/assets/curry_leaf_laddu.png",
+    sizes: ["200g"],
+    tags: ["natural-sweetener", "immunity"],
+    benefits: "Rich source of iron, prevents hair fall, improves digestion and vision.",
+    usage: "Ready-to-eat herbal snack."
+  },
+  {
+    name: "Red rice laaddu",
+    id: "red-rice-laddu",
+    tamilName: "சிகப்பரிசி லட்டு",
+    category: "homemade-products",
+    image: "/assets/red_rice_laddu.png",
+    sizes: ["250g"],
+    tags: ["natural-sweetener"],
+    benefits: "Rich in fiber, boosts stamina, healthy snack for all age groups.",
+    usage: "Ready-to-eat sweet snack."
+  },
+
+  // 15. Pickles & Masalas (5 items)
+  {
+    name: "Mango Pickle",
+    id: "mango-pickle",
+    tamilName: "மாங்காய் ஊறுகாய்",
+    category: "pickles-masalas",
+    image: "/assets/mango_pickle.jpg",
+    sizes: ["250g"],
+    tags: [],
+    benefits: "Boosts appetite, assists in digestion, contains healthy sesame oil fats.",
+    usage: "Serve with curd rice, idli, dosa, or hot rice."
+  },
+  {
+    name: "Lemon Pickle",
+    id: "lemon-pickle",
+    tamilName: "எலுமிச்சை ஊறுகாய்",
+    category: "pickles-masalas",
+    image: "/assets/lemon_pickle.jpg",
+    sizes: ["250g"],
+    tags: [],
+    benefits: "Vitamin C source, aids in digestion, zero artificial chemical preservatives.",
+    usage: "Goes wonderfully with curd rice and variety rices."
+  },
+  {
+    name: "Idli Podi (Gunpowder)",
+    id: "idli-podi",
+    tamilName: "இட்லி பொடி",
+    category: "pickles-masalas",
+    image: "/assets/idli_podi.png",
+    sizes: ["100g"],
+    tags: [],
+    benefits: "High protein from lentils, convenient side dish.",
+    usage: "Mix with wood-pressed sesame oil or ghee and use as dip for hot idlis and dosas."
+  },
+  {
+    name: "Kulambu Milagai Thool",
+    id: "kulambu-milagai-thool",
+    tamilName: "குழம்பு மிளகாய்த் தூள்",
+    category: "pickles-masalas",
+    image: "/assets/kulambu_milagai_thool.jpg",
+    sizes: ["500g"],
+    tags: [],
+    benefits: "One-stop masala for all South Indian kuzhambu varieties.",
+    usage: "Add to tamarind base for Vatha Kuzhambu, Garlic Kuzhambu, or fish curry."
+  },
+  {
+    name: "Curry Leaves Powder (Karuveppilai Podi)",
+    id: "curry-leaves-powder",
+    tamilName: "கறிவேப்பிலை பொடி",
+    category: "pickles-masalas",
+    image: "/assets/curry_leaves_powder.jpg",
+    sizes: ["100g"],
+    tags: [],
+    benefits: "Excellent source of iron and antioxidants. Helps improve digestion and promotes hair growth.",
+    usage: "Mix with hot rice and ghee/sesame oil, or serve as a flavorful side for idli and dosa."
+  },
+
+  // 16. Homemade Vathal (4 items)
+  {
+    name: "Beetroot Vathal",
+    id: "beetroot-vathal",
+    tamilName: "பீட்ரூட் வத்தல்",
+    category: "homemade-vathal",
+    image: "/assets/beetroot_vathal.png",
+    sizes: ["250g"],
+    tags: [],
+    benefits: "Retains organic nitrates and fiber of beetroots, zero preservatives, natural snack.",
+    usage: "Deep fry in hot oil for 5-10 seconds until crispy. Serve with variety rice or curd rice."
+  },
+  {
+    name: "Carrot Vathal",
+    id: "carrot-vathal",
+    tamilName: "கேரட் வத்தல்",
+    category: "homemade-vathal",
+    image: "/assets/carrot_vathal.jpg",
+    sizes: ["250g"],
+    tags: [],
+    benefits: "Rich in beta-carotene and dietary fibers, no added artificial color.",
+    usage: "Deep fry in oil and enjoy as a crunchy side dish for South Indian meals."
+  },
+  {
+    name: "Pumpkin / Poosanikkai Vathal",
+    id: "poosanikkai-vathal",
+    tamilName: "பூசணிக்காய் வத்தல்",
+    category: "homemade-vathal",
+    image: "/assets/poosanikkai_vathal.png",
+    sizes: ["250g"],
+    tags: [],
+    benefits: "Highly alkaline superfood, cools the body, aids digestion.",
+    usage: "Fry in hot oil till crispy and golden. Best paired with sambar or rasam rice."
+  },
+  {
+    name: "Onion Vathal",
+    id: "onion-vathal",
+    tamilName: "வெங்காய வத்தல்",
+    category: "homemade-vathal",
+    image: "/assets/onion_vathal.png",
+    sizes: ["250g"],
+    tags: [],
+    benefits: "Imparts rich onion flavor, stimulates digestion, completely homemade.",
+    usage: "Deep fry in oil to eat as side dish, or use as tempering (tadka) for traditional curries."
   }
 ];

@@ -25,7 +25,10 @@ const CATEGORY_CODES = {
   "seeds": "SED",
   "spices": "SPC",
   "health-powders": "HLP",
-  "sweeteners": "SWT"
+  "sweeteners": "SWT",
+  "homemade-products": "HMS",
+  "pickles-masalas": "PKM",
+  "homemade-vathal": "HMV"
 };
 
 // Key Features templates by category
@@ -120,6 +123,27 @@ const KEY_FEATURES_TEMPLATES = {
     "Retains iron, magnesium, and essential trace minerals.",
     "Natural unrefined flavor with smooth, balanced sweetness.",
     "Clean food grade packaging protecting from humidity."
+  ],
+  "homemade-products": [
+    "Prepared in hygienic, home-style kitchens using age-old family recipes.",
+    "Made with 100% natural ingredients and organic sweeteners like palm jaggery.",
+    "No artificial preservatives, synthetic colors, or chemical additives.",
+    "Rich in native nutrition and energy-boosting healthy fats like cow ghee.",
+    "Perfect traditional snack choice for the entire family's daily craving."
+  ],
+  "pickles-masalas": [
+    "Prepared in traditional small batches to retain homemade quality.",
+    "Cured using cold-pressed sesame or gingelly oil for natural preservation.",
+    "Made with premium sun-dried spices and freshly ground spice mixes.",
+    "Free from vinegar, synthetic food acids, and chemical preservatives.",
+    "Perfect accompaniment to elevate your daily rice, idli, or dosa meals."
+  ],
+  "homemade-vathal": [
+    "Traditionally hand-pressed or sliced and hygienically sun-dried.",
+    "Cured with natural sea salt and traditional spices or sour curd.",
+    "Made from fresh, premium quality organic vegetables.",
+    "100% preservative-free natural crisps with long shelf life.",
+    "Deliciously crunchy side dish when fried, perfect for variety rice meals."
   ]
 };
 
