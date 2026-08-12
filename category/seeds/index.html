@@ -26,6 +26,14 @@
     
     <!-- CSS -->
     <link rel="stylesheet" href="/index.css">
+    
+    <!-- Image Fallback Script -->
+    <script>
+      window.handleProductImageError = function(img, category) {
+        img.onerror = null;
+        img.src = '/assets/fallbacks/' + category + '.svg';
+      };
+    </script>
 </head>
 <body data-page="category" data-category-id="seeds">
 

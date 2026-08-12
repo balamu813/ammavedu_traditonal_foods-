@@ -195,6 +195,24 @@ function generateProductSvg(name) {
 </svg>`;
 }
 
+// Generate Beautiful SVG Category Fallback
+function generateCategorySvg(name) {
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FAF7F0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F4F0E6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#grad)" rx="12" />
+  <rect x="15" y="15" width="470" height="470" fill="none" stroke="#C2A278" stroke-width="2" stroke-dasharray="8 6" rx="8" />
+  <path d="M250,140 C280,180 320,200 320,250 C320,300 280,340 250,340 C220,340 180,300 180,250 C180,200 220,180 250,140 Z" fill="#2E5A44" opacity="0.06" />
+  <text x="50%" y="45%" text-anchor="middle" font-family="'Playfair Display', Georgia, serif" font-size="28" font-weight="bold" fill="#5C3E21">${name}</text>
+  <text x="50%" y="54%" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="14" font-weight="500" fill="#8C6239" letter-spacing="2">AMMA VEEDU TRADITIONAL FOODS</text>
+  <text x="50%" y="85%" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="12" fill="#6B5B52">100% Pure &amp; Natural Category Fallback</text>
+</svg>`;
+}
+
 // Generate SVG Barcode Placeholder
 function generateBarcodeSvg(sku) {
   let lines = '';
@@ -250,6 +268,14 @@ function getCommonLayout(title, metaDesc, contentHtml, bodyAttrs = '') {
     
     <!-- CSS -->
     <link rel="stylesheet" href="/index.css">
+    
+    <!-- Image Fallback Script -->
+    <script>
+      window.handleProductImageError = function(img, category) {
+        img.onerror = null;
+        img.src = '/assets/fallbacks/' + category + '.svg';
+      };
+    </script>
 </head>
 <body ${bodyAttrs}>
 
@@ -532,6 +558,7 @@ ensureDir(PRODUCTS_DIR);
 ensureDir(CATEGORY_DIR);
 ensureDir(path.resolve(PUBLIC_DIR, 'assets', 'placeholders'));
 ensureDir(path.resolve(PUBLIC_DIR, 'assets', 'barcodes'));
+ensureDir(path.resolve(PUBLIC_DIR, 'assets', 'fallbacks'));
 
 // 1. Generate Placeholder SVG Images
 productsList.forEach(prod => {
@@ -551,6 +578,16 @@ productsList.forEach(prod => {
   );
 });
 console.log("Generated SVG product placeholders and barcode assets.");
+
+// 1.5. Generate Category Fallback SVG Images
+Object.values(CATEGORIES).forEach(cat => {
+  const svgContent = generateCategorySvg(cat.name);
+  fs.writeFileSync(
+    path.resolve(PUBLIC_DIR, 'assets', 'fallbacks', `${cat.slug}.svg`),
+    svgContent
+  );
+});
+console.log("Generated SVG category fallbacks.");
 
 // 2. Generate Product Page HTML files
 productsList.forEach(prod => {
@@ -575,7 +612,7 @@ productsList.forEach(prod => {
             <!-- Left Column: Visuals -->
             <div class="product-detail-visuals">
                 <div class="product-detail-img-box">
-                    <img src="${prod.image}" alt="${prod.name}" id="main-product-img">
+                    <img src="${prod.image}" alt="${prod.name}" id="main-product-img" onerror="handleProductImageError(this, '${prod.category}')">
                 </div>
                 <div class="barcode-card">
                     <h5>Product Authenticity Barcode</h5>

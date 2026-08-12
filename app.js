@@ -1,6 +1,12 @@
 // Amma Veedu Traditional Foods - Main Web Application Script
 import { PRODUCTS, CATEGORIES } from './products-compiled.js';
 
+// Global image fallback error handler
+window.handleProductImageError = function(img, category) {
+    img.onerror = null;
+    img.src = `/assets/fallbacks/${category}.svg`;
+};
+
 // ==========================================================================
 // STATE MANAGEMENT & CART OPERATIONS
 // ==========================================================================
@@ -396,7 +402,7 @@ function createHomeCard(product) {
 
     card.innerHTML = `
         <div class="product-img-wrapper" style="cursor:pointer;">
-            <img src="${product.image}" alt="${product.name}" loading="lazy">
+            <img src="${product.image}" alt="${product.name}" loading="lazy" onerror="handleProductImageError(this, '${product.category}')">
             <span class="prod-badge badge-organic" style="position:absolute; top:12px; left:12px;">In Stock</span>
         </div>
         <div class="product-card-body" style="padding:16px;">

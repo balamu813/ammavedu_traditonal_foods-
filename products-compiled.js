@@ -103,7 +103,7 @@ export const PRODUCTS = [
     "id": "white-poha-beaten-rice",
     "tamilName": "வெள்ளை அவல்",
     "category": "cereals",
-    "image": "/assets/aval_poha.png",
+    "image": "/assets/white-poha-beaten-rice-cereals-250g.webp",
     "sizes": [
       "250g",
       "500g",
@@ -284,6 +284,7 @@ export const PRODUCTS = [
     "id": "bajra-atta-pearl-millet-flour",
     "tamilName": "கம்பு மாவு",
     "category": "flour",
+    "image": "/assets/bajra-atta-pearl-millet-flour-flour-500g.webp",
     "sizes": [
       "500g",
       "1kg",
@@ -312,7 +313,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-FLO-BAAT]",
-    "image": "/assets/placeholders/bajra-atta-pearl-millet-flour.svg",
     "metaTitle": "Bajra Atta / Pearl Millet Flour | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Bajra Atta / Pearl Millet Flour direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -321,6 +321,7 @@ export const PRODUCTS = [
     "id": "ragi-atta-finger-millet-flour",
     "tamilName": "கேழ்வரகு மாவு",
     "category": "flour",
+    "image": "/assets/ragi-atta-finger-millet-flour-flour-500g.webp",
     "sizes": [
       "500g",
       "1kg",
@@ -349,7 +350,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-FLO-RAAT]",
-    "image": "/assets/placeholders/ragi-atta-finger-millet-flour.svg",
     "metaTitle": "Ragi Atta / Finger Millet Flour | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Ragi Atta / Finger Millet Flour direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -394,6 +394,7 @@ export const PRODUCTS = [
     "id": "sattu-atta",
     "tamilName": "சத்து மாவு",
     "category": "flour",
+    "image": "/assets/sattu-atta-flour-500g.webp",
     "sizes": [
       "500g",
       "1kg",
@@ -421,7 +422,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-FLO-SAAT]",
-    "image": "/assets/placeholders/sattu-atta.svg",
     "metaTitle": "Sattu Atta | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Sattu Atta direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -1375,7 +1375,7 @@ export const PRODUCTS = [
     "id": "red-rice",
     "tamilName": "சிகப்பரிசி (மாப்பிள்ளை சம்பா)",
     "category": "rice",
-    "image": "/assets/mapillai_samba_rice.png",
+    "image": "/assets/red-rice-rice-1kg.webp",
     "sizes": [
       "1kg",
       "2kg",
@@ -1411,7 +1411,7 @@ export const PRODUCTS = [
     "id": "black-rice",
     "tamilName": "கருப்பு கவுனி அரிசி",
     "category": "rice",
-    "image": "/assets/karuppu_kavuni_rice.png",
+    "image": "/assets/black-rice-rice-1kg.webp",
     "sizes": [
       "1kg",
       "2kg",
@@ -2127,7 +2127,7 @@ export const PRODUCTS = [
     "id": "turmeric-powder",
     "tamilName": "மஞ்சள் தூள்",
     "category": "spices",
-    "image": "/assets/turmeric_powder.png",
+    "image": "/assets/turmeric-powder-spices-100g.webp",
     "sizes": [
       "100g",
       "250g",
@@ -2307,7 +2307,7 @@ export const PRODUCTS = [
     "id": "groundnut-chikki",
     "tamilName": "கடலை மிட்டாய்",
     "category": "homemade-products",
-    "image": "/assets/groundnut_chikki.png",
+    "image": "/assets/groundnut-chikki-homemade-products-250g.webp",
     "sizes": [
       "250g"
     ],
@@ -2340,7 +2340,7 @@ export const PRODUCTS = [
     "id": "sesame-urundai",
     "tamilName": "எள்ளு உருண்டை",
     "category": "homemade-products",
-    "image": "/assets/sesame_urundai_cropped.jpg",
+    "image": "/assets/sesame-urundai-homemade-products-200g.webp",
     "sizes": [
       "200g"
     ],
@@ -2373,7 +2373,7 @@ export const PRODUCTS = [
     "id": "peanut-urundai",
     "tamilName": "கடலை உருண்டை",
     "category": "homemade-products",
-    "image": "/assets/peanut_urundai.png",
+    "image": "/assets/peanut-urundai-homemade-products-200g.webp",
     "sizes": [
       "200g"
     ],
@@ -2406,7 +2406,7 @@ export const PRODUCTS = [
     "id": "karuppu-ulundu-laddu",
     "tamilName": "கருப்பு உளுந்து லட்டு",
     "category": "homemade-products",
-    "image": "/assets/black_gram_laddu.png",
+    "image": "/assets/karuppu-ulundu-laddu-homemade-products-250g.webp",
     "sizes": [
       "250g"
     ],
@@ -2439,7 +2439,7 @@ export const PRODUCTS = [
     "id": "karuveppilai-laddu",
     "tamilName": "கறிவேப்பிலை லட்டு",
     "category": "homemade-products",
-    "image": "/assets/curry_leaf_laddu.png",
+    "image": "/assets/karuveppilai-laddu-homemade-products-200g.webp",
     "sizes": [
       "200g"
     ],
@@ -2473,7 +2473,7 @@ export const PRODUCTS = [
     "id": "red-rice-laddu",
     "tamilName": "சிகப்பரிசி லட்டு",
     "category": "homemade-products",
-    "image": "/assets/red_rice_laddu.png",
+    "image": "/assets/red-rice-laddu-homemade-products-250g.webp",
     "sizes": [
       "250g"
     ],
@@ -2506,7 +2506,7 @@ export const PRODUCTS = [
     "id": "mango-pickle",
     "tamilName": "மாங்காய் ஊறுகாய்",
     "category": "pickles-masalas",
-    "image": "/assets/mango_pickle.jpg",
+    "image": "/assets/mango-pickle-pickles-masalas-250g.webp",
     "sizes": [
       "250g"
     ],
@@ -2537,7 +2537,7 @@ export const PRODUCTS = [
     "id": "lemon-pickle",
     "tamilName": "எலுமிச்சை ஊறுகாய்",
     "category": "pickles-masalas",
-    "image": "/assets/lemon_pickle.jpg",
+    "image": "/assets/lemon-pickle-pickles-masalas-250g.webp",
     "sizes": [
       "250g"
     ],
@@ -2568,7 +2568,7 @@ export const PRODUCTS = [
     "id": "idli-podi",
     "tamilName": "இட்லி பொடி",
     "category": "pickles-masalas",
-    "image": "/assets/idli_podi.png",
+    "image": "/assets/idli-podi-pickles-masalas-100g.webp",
     "sizes": [
       "100g"
     ],
@@ -2599,7 +2599,7 @@ export const PRODUCTS = [
     "id": "kulambu-milagai-thool",
     "tamilName": "குழம்பு மிளகாய்த் தூள்",
     "category": "pickles-masalas",
-    "image": "/assets/kulambu_milagai_thool.jpg",
+    "image": "/assets/kulambu-milagai-thool-pickles-masalas-500g.webp",
     "sizes": [
       "500g"
     ],
@@ -2630,7 +2630,7 @@ export const PRODUCTS = [
     "id": "curry-leaves-powder",
     "tamilName": "கறிவேப்பிலை பொடி",
     "category": "pickles-masalas",
-    "image": "/assets/curry_leaves_powder.jpg",
+    "image": "/assets/curry-leaves-powder-pickles-masalas-100g.webp",
     "sizes": [
       "100g"
     ],
@@ -2661,7 +2661,7 @@ export const PRODUCTS = [
     "id": "beetroot-vathal",
     "tamilName": "பீட்ரூட் வத்தல்",
     "category": "homemade-vathal",
-    "image": "/assets/beetroot_vathal.png",
+    "image": "/assets/beetroot-vathal-homemade-vathal-250g.webp",
     "sizes": [
       "250g"
     ],
@@ -2692,7 +2692,7 @@ export const PRODUCTS = [
     "id": "carrot-vathal",
     "tamilName": "கேரட் வத்தல்",
     "category": "homemade-vathal",
-    "image": "/assets/carrot_vathal.jpg",
+    "image": "/assets/carrot-vathal-homemade-vathal-250g.webp",
     "sizes": [
       "250g"
     ],
@@ -2723,7 +2723,7 @@ export const PRODUCTS = [
     "id": "poosanikkai-vathal",
     "tamilName": "பூசணிக்காய் வத்தல்",
     "category": "homemade-vathal",
-    "image": "/assets/poosanikkai_vathal.png",
+    "image": "/assets/poosanikkai-vathal-homemade-vathal-250g.webp",
     "sizes": [
       "250g"
     ],
@@ -2754,7 +2754,7 @@ export const PRODUCTS = [
     "id": "onion-vathal",
     "tamilName": "வெங்காய வத்தல்",
     "category": "homemade-vathal",
-    "image": "/assets/onion_vathal.png",
+    "image": "/assets/onion-vathal-homemade-vathal-250g.webp",
     "sizes": [
       "250g"
     ],

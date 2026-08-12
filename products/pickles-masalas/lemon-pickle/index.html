@@ -26,6 +26,14 @@
     
     <!-- CSS -->
     <link rel="stylesheet" href="/index.css">
+    
+    <!-- Image Fallback Script -->
+    <script>
+      window.handleProductImageError = function(img, category) {
+        img.onerror = null;
+        img.src = '/assets/fallbacks/' + category + '.svg';
+      };
+    </script>
 </head>
 <body data-page="product" data-product-id="lemon-pickle">
 
@@ -150,7 +158,7 @@
             <!-- Left Column: Visuals -->
             <div class="product-detail-visuals">
                 <div class="product-detail-img-box">
-                    <img src="/assets/lemon_pickle.jpg" alt="Lemon Pickle" id="main-product-img">
+                    <img src="/assets/lemon-pickle-pickles-masalas-250g.webp" alt="Lemon Pickle" id="main-product-img" onerror="handleProductImageError(this, 'pickles-masalas')">
                 </div>
                 <div class="barcode-card">
                     <h5>Product Authenticity Barcode</h5>
