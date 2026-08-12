@@ -465,6 +465,7 @@ export const PRODUCTS = [
     "id": "sooji-rawa",
     "tamilName": "ரவா (உப்புமா ரவை)",
     "category": "flour",
+    "image": "/assets/sooji-rawa-flour-500g.webp",
     "sizes": [
       "500g",
       "1kg",
@@ -492,7 +493,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-FLO-SORA]",
-    "image": "/assets/placeholders/sooji-rawa.svg",
     "metaTitle": "Sooji Rawa | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Sooji Rawa direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -501,6 +501,7 @@ export const PRODUCTS = [
     "id": "wheat-flour-khapli",
     "tamilName": "கப்ளி கோதுமை மாவு (உமிக்கோதுமை)",
     "category": "flour",
+    "image": "/assets/wheat-flour-khapli-flour-1kg.webp",
     "sizes": [
       "1kg",
       "2kg",
@@ -528,7 +529,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-FLO-WHFL]",
-    "image": "/assets/placeholders/wheat-flour-khapli.svg",
     "metaTitle": "Wheat Flour (Khapli) | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Wheat Flour (Khapli) direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -537,6 +537,7 @@ export const PRODUCTS = [
     "id": "wheat-flour-lokwan",
     "tamilName": "லோக்வான் கோதுமை மாவு",
     "category": "flour",
+    "image": "/assets/wheat-flour-lokwan-flour-1kg.webp",
     "sizes": [
       "1kg",
       "2kg",
@@ -564,7 +565,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-FLO-WHFL]",
-    "image": "/assets/placeholders/wheat-flour-lokwan.svg",
     "metaTitle": "Wheat Flour (Lokwan) | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Wheat Flour (Lokwan) direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -573,6 +573,7 @@ export const PRODUCTS = [
     "id": "wheat-flour-sharbati",
     "tamilName": "ஷர்பதி கோதுமை மாவு",
     "category": "flour",
+    "image": "/assets/wheat-flour-sharbati-flour-1kg.webp",
     "sizes": [
       "1kg",
       "2kg",
@@ -600,7 +601,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-FLO-WHFL]",
-    "image": "/assets/placeholders/wheat-flour-sharbati.svg",
     "metaTitle": "Wheat Flour (Sharbati) | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Wheat Flour (Sharbati) direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -609,6 +609,7 @@ export const PRODUCTS = [
     "id": "bajra-pearl-millet",
     "tamilName": "முழு கம்பு",
     "category": "millets",
+    "image": "/assets/bajra-pearl-millet-millets-500g.webp",
     "sizes": [
       "500g",
       "1kg",
@@ -637,7 +638,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-MIL-BAPE]",
-    "image": "/assets/placeholders/bajra-pearl-millet.svg",
     "metaTitle": "Bajra / Pearl Millet | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Bajra / Pearl Millet direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -646,6 +646,7 @@ export const PRODUCTS = [
     "id": "barnyard-millet",
     "tamilName": "குதிரைவாலி அரிசி",
     "category": "millets",
+    "image": "/assets/barnyard-millet-millets-500g.webp",
     "sizes": [
       "500g",
       "1kg",
@@ -674,7 +675,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-MIL-BAMI]",
-    "image": "/assets/placeholders/barnyard-millet.svg",
     "metaTitle": "Barnyard Millet | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Barnyard Millet direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -683,6 +683,7 @@ export const PRODUCTS = [
     "id": "brown-top-millet",
     "tamilName": "பலா பச்சரிசி / பிரவுன்டாப் தினை",
     "category": "millets",
+    "image": "/assets/brown-top-millet-millets-500g.webp",
     "sizes": [
       "500g",
       "1kg",
@@ -711,7 +712,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-MIL-BRTO]",
-    "image": "/assets/placeholders/brown-top-millet.svg",
     "metaTitle": "Brown Top Millet | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Brown Top Millet direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -720,6 +720,7 @@ export const PRODUCTS = [
     "id": "foxtail-millet",
     "tamilName": "தினை அரிசி",
     "category": "millets",
+    "image": "/assets/foxtail-millet-millets-500g.webp",
     "sizes": [
       "500g",
       "1kg",
@@ -748,7 +749,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-MIL-FOMI]",
-    "image": "/assets/placeholders/foxtail-millet.svg",
     "metaTitle": "Foxtail Millet | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Foxtail Millet direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -757,6 +757,7 @@ export const PRODUCTS = [
     "id": "kodo-millet",
     "tamilName": "வரகு அரிசி",
     "category": "millets",
+    "image": "/assets/kodo-millet-millets-500g.webp",
     "sizes": [
       "500g",
       "1kg",
@@ -785,7 +786,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-MIL-KOMI]",
-    "image": "/assets/placeholders/kodo-millet.svg",
     "metaTitle": "Kodo Millet | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Kodo Millet direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -794,6 +794,7 @@ export const PRODUCTS = [
     "id": "little-millet",
     "tamilName": "சாமை அரிசி",
     "category": "millets",
+    "image": "/assets/little-millet-millets-500g.webp",
     "sizes": [
       "500g",
       "1kg",
@@ -822,7 +823,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-MIL-LIMI]",
-    "image": "/assets/placeholders/little-millet.svg",
     "metaTitle": "Little Millet | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Little Millet direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -831,6 +831,7 @@ export const PRODUCTS = [
     "id": "ragi-whole-finger-millet",
     "tamilName": "கேழ்வரகு முழுமை",
     "category": "millets",
+    "image": "/assets/ragi-whole-finger-millet-millets-500g.webp",
     "sizes": [
       "500g",
       "1kg",
@@ -859,7 +860,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-MIL-RAWH]",
-    "image": "/assets/placeholders/ragi-whole-finger-millet.svg",
     "metaTitle": "Ragi Whole / Finger Millet | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Ragi Whole / Finger Millet direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -868,6 +868,7 @@ export const PRODUCTS = [
     "id": "coconut-oil",
     "tamilName": "தேங்காய் எண்ணெய் (மரச்செக்கு)",
     "category": "oil",
+    "image": "/assets/coconut-oil-oil-500ml.webp",
     "sizes": [
       "500ml",
       "1L",
@@ -896,7 +897,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-OIL-COOI]",
-    "image": "/assets/placeholders/coconut-oil.svg",
     "metaTitle": "Coconut Oil | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Coconut Oil direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -905,6 +905,7 @@ export const PRODUCTS = [
     "id": "sunflower-oil",
     "tamilName": "சூரியகாந்தி எண்ணெய் (மரச்செக்கு)",
     "category": "oil",
+    "image": "/assets/sunflower-oil-oil-500ml.webp",
     "sizes": [
       "500ml",
       "1L",
@@ -933,7 +934,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-OIL-SUOI]",
-    "image": "/assets/placeholders/sunflower-oil.svg",
     "metaTitle": "Sunflower Oil | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Sunflower Oil direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -942,6 +942,7 @@ export const PRODUCTS = [
     "id": "groundnut",
     "tamilName": "நிலக்கடலை / வேர்க்கடலை",
     "category": "oil-seeds",
+    "image": "/assets/groundnut-oil-seeds-500g.webp",
     "sizes": [
       "500g",
       "1kg",
@@ -969,7 +970,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-OLS-GROU]",
-    "image": "/assets/placeholders/groundnut.svg",
     "metaTitle": "Groundnut | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Groundnut direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -978,6 +978,7 @@ export const PRODUCTS = [
     "id": "channa-whole-bengal-gram-whole",
     "tamilName": "கருப்பு கொண்டைக்கடலை (முழு)",
     "category": "pulses",
+    "image": "/assets/channa-whole-bengal-gram-whole-pulses-500g.webp",
     "sizes": [
       "500g",
       "1kg",
@@ -1005,7 +1006,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-PUL-CHWH]",
-    "image": "/assets/placeholders/channa-whole-bengal-gram-whole.svg",
     "metaTitle": "Channa (Whole) / Bengal Gram (Whole) | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Channa (Whole) / Bengal Gram (Whole) direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -1014,6 +1014,7 @@ export const PRODUCTS = [
     "id": "channa-dal-split-bengal-gram",
     "tamilName": "கடலை பருப்பு",
     "category": "pulses",
+    "image": "/assets/channa-dal-split-bengal-gram-pulses-500g.webp",
     "sizes": [
       "500g",
       "1kg",
@@ -1041,7 +1042,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-PUL-CHDA]",
-    "image": "/assets/placeholders/channa-dal-split-bengal-gram.svg",
     "metaTitle": "Channa Dal / Split Bengal Gram | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Channa Dal / Split Bengal Gram direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -1050,6 +1050,7 @@ export const PRODUCTS = [
     "id": "green-peas",
     "tamilName": "பச்சை பட்டாணி (உலர்ந்தது)",
     "category": "pulses",
+    "image": "/assets/green-peas-pulses-500g.webp",
     "sizes": [
       "500g",
       "1kg",
@@ -1077,7 +1078,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-PUL-GRPE]",
-    "image": "/assets/placeholders/green-peas.svg",
     "metaTitle": "Green Peas | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Green Peas direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -1086,6 +1086,7 @@ export const PRODUCTS = [
     "id": "moong-whole-green-gram-whole",
     "tamilName": "பச்சை பயறு (முழு)",
     "category": "pulses",
+    "image": "/assets/moong-whole-green-gram-whole-pulses-500g.webp",
     "sizes": [
       "500g",
       "1kg",
@@ -1113,7 +1114,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-PUL-MOWH]",
-    "image": "/assets/placeholders/moong-whole-green-gram-whole.svg",
     "metaTitle": "Moong (Whole) / Green Gram (Whole) | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Moong (Whole) / Green Gram (Whole) direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -1122,6 +1122,7 @@ export const PRODUCTS = [
     "id": "moong-dal-chilka-split-green-gram-with-skin",
     "tamilName": "பாசி பருப்பு (உடையாத தோல்)",
     "category": "pulses",
+    "image": "/assets/moong-dal-chilka-split-green-gram-with-skin-pulses-500g.webp",
     "sizes": [
       "500g",
       "1kg",
@@ -1149,7 +1150,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-PUL-MODA]",
-    "image": "/assets/placeholders/moong-dal-chilka-split-green-gram-with-skin.svg",
     "metaTitle": "Moong Dal (Chilka) / Split Green Gram (With Skin) | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Moong Dal (Chilka) / Split Green Gram (With Skin) direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -1158,6 +1158,7 @@ export const PRODUCTS = [
     "id": "moong-dal-split-green-gram-skinless",
     "tamilName": "பாசி பருப்பு",
     "category": "pulses",
+    "image": "/assets/moong-dal-split-green-gram-skinless-pulses-500g.webp",
     "sizes": [
       "500g",
       "1kg",
@@ -1185,7 +1186,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-PUL-MODA]",
-    "image": "/assets/placeholders/moong-dal-split-green-gram-skinless.svg",
     "metaTitle": "Moong Dal / Split Green Gram (Skinless) | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Moong Dal / Split Green Gram (Skinless) direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -1194,6 +1194,7 @@ export const PRODUCTS = [
     "id": "red-rajma-red-kidney-beans",
     "tamilName": "சிவப்பு ராஜ்மா",
     "category": "pulses",
+    "image": "/assets/red-rajma-red-kidney-beans-pulses-500g.webp",
     "sizes": [
       "500g",
       "1kg",
@@ -1221,7 +1222,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-PUL-RERA]",
-    "image": "/assets/placeholders/red-rajma-red-kidney-beans.svg",
     "metaTitle": "Red Rajma / Red Kidney Beans | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Red Rajma / Red Kidney Beans direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -1230,6 +1230,7 @@ export const PRODUCTS = [
     "id": "roasted-channa-dal-roasted-split-bengal-gram",
     "tamilName": "பொட்டுகடலை",
     "category": "pulses",
+    "image": "/assets/roasted-channa-dal-roasted-split-bengal-gram-pulses-250g.webp",
     "sizes": [
       "250g",
       "500g",
@@ -1257,7 +1258,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-PUL-ROCH]",
-    "image": "/assets/placeholders/roasted-channa-dal-roasted-split-bengal-gram.svg",
     "metaTitle": "Roasted Channa Dal / Roasted Split Bengal Gram | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Roasted Channa Dal / Roasted Split Bengal Gram direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -1266,6 +1266,7 @@ export const PRODUCTS = [
     "id": "toor-dal-arhar-dal-split-pigeon-pea-unpolished",
     "tamilName": "துவரம் பருப்பு (தீட்டப்படாதது)",
     "category": "pulses",
+    "image": "/assets/toor-dal-arhar-dal-split-pigeon-pea-unpolished-pulses-500g.webp",
     "sizes": [
       "500g",
       "1kg",
@@ -1294,7 +1295,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-PUL-TODA]",
-    "image": "/assets/placeholders/toor-dal-arhar-dal-split-pigeon-pea-unpolished.svg",
     "metaTitle": "Toor Dal / Arhar Dal / Split Pigeon Pea (Unpolished) | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Toor Dal / Arhar Dal / Split Pigeon Pea (Unpolished) direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -1303,6 +1303,7 @@ export const PRODUCTS = [
     "id": "urad-black-gram-whole",
     "tamilName": "முழு கருப்பு உளுந்து",
     "category": "pulses",
+    "image": "/assets/urad-black-gram-whole-pulses-500g.webp",
     "sizes": [
       "500g",
       "1kg",
@@ -1330,7 +1331,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-PUL-URBL]",
-    "image": "/assets/placeholders/urad-black-gram-whole.svg",
     "metaTitle": "Urad / Black Gram (Whole) | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Urad / Black Gram (Whole) direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -1339,6 +1339,7 @@ export const PRODUCTS = [
     "id": "basmati-rice-white",
     "tamilName": "பாஸ்மதி அரிசி (வெள்ளை)",
     "category": "rice",
+    "image": "/assets/basmati-rice-white-rice-1kg.webp",
     "sizes": [
       "1kg",
       "2kg",
@@ -1366,7 +1367,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-RIC-BARI]",
-    "image": "/assets/placeholders/basmati-rice-white.svg",
     "metaTitle": "Basmati Rice (White) | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Basmati Rice (White) direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -1447,6 +1447,7 @@ export const PRODUCTS = [
     "id": "himalayan-dark-pink-crystals",
     "tamilName": "இமாலய இளஞ்சிவப்பு கல் உப்பு",
     "category": "salt",
+    "image": "/assets/himalayan-dark-pink-crystals-salt-500g.webp",
     "sizes": [
       "500g",
       "1kg"
@@ -1473,7 +1474,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-SLT-HIDA]",
-    "image": "/assets/placeholders/himalayan-dark-pink-crystals.svg",
     "metaTitle": "Himalayan Dark Pink Crystals | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Himalayan Dark Pink Crystals direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -1482,6 +1482,7 @@ export const PRODUCTS = [
     "id": "himalayan-dark-pink-free-flow",
     "tamilName": "இமாலய இளஞ்சிவப்பு தூள் உப்பு",
     "category": "salt",
+    "image": "/assets/himalayan-dark-pink-free-flow-salt-500g.webp",
     "sizes": [
       "500g",
       "1kg"
@@ -1508,7 +1509,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-SLT-HIDA]",
-    "image": "/assets/placeholders/himalayan-dark-pink-free-flow.svg",
     "metaTitle": "Himalayan Dark Pink Free Flow | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Himalayan Dark Pink Free Flow direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -1517,6 +1517,7 @@ export const PRODUCTS = [
     "id": "chia-seeds",
     "tamilName": "சியா விதைகள்",
     "category": "seeds",
+    "image": "/assets/chia-seeds-seeds-250g.webp",
     "sizes": [
       "250g",
       "500g",
@@ -1544,7 +1545,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-SED-CHSE]",
-    "image": "/assets/placeholders/chia-seeds.svg",
     "metaTitle": "Chia Seeds | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Chia Seeds direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -1553,6 +1553,7 @@ export const PRODUCTS = [
     "id": "flax-seeds-javas",
     "tamilName": "ஆளி விதை (ஜவாஸ்)",
     "category": "seeds",
+    "image": "/assets/flax-seeds-javas-seeds-250g.webp",
     "sizes": [
       "250g",
       "500g",
@@ -1580,7 +1581,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-SED-FLSE]",
-    "image": "/assets/placeholders/flax-seeds-javas.svg",
     "metaTitle": "Flax Seeds (Javas) | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Flax Seeds (Javas) direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -1589,6 +1589,7 @@ export const PRODUCTS = [
     "id": "kalonji-nigella-seeds",
     "tamilName": "கருஞ்சீரகம்",
     "category": "seeds",
+    "image": "/assets/kalonji-nigella-seeds-seeds-100g.webp",
     "sizes": [
       "100g",
       "250g",
@@ -1616,7 +1617,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-SED-KANI]",
-    "image": "/assets/placeholders/kalonji-nigella-seeds.svg",
     "metaTitle": "Kalonji / Nigella Seeds | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Kalonji / Nigella Seeds direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -1625,6 +1625,7 @@ export const PRODUCTS = [
     "id": "pumpkin-seeds",
     "tamilName": "பூசணி விதைகள்",
     "category": "seeds",
+    "image": "/assets/pumpkin-seeds-seeds-250g.webp",
     "sizes": [
       "250g",
       "500g",
@@ -1652,7 +1653,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-SED-PUSE]",
-    "image": "/assets/placeholders/pumpkin-seeds.svg",
     "metaTitle": "Pumpkin Seeds | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Pumpkin Seeds direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -1661,6 +1661,7 @@ export const PRODUCTS = [
     "id": "watermelon-seeds",
     "tamilName": "தர்பூசணி விதைகள்",
     "category": "seeds",
+    "image": "/assets/watermelon-seeds-seeds-250g.webp",
     "sizes": [
       "250g",
       "500g",
@@ -1688,7 +1689,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-SED-WASE]",
-    "image": "/assets/placeholders/watermelon-seeds.svg",
     "metaTitle": "Watermelon Seeds | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Watermelon Seeds direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -1697,6 +1697,7 @@ export const PRODUCTS = [
     "id": "biryani-masala",
     "tamilName": "பிரியாணி மசாலா",
     "category": "spices",
+    "image": "/assets/biryani-masala-spices-100g.webp",
     "sizes": [
       "100g",
       "250g",
@@ -1724,7 +1725,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-SPC-BIMA]",
-    "image": "/assets/placeholders/biryani-masala.svg",
     "metaTitle": "Biryani Masala | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Biryani Masala direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -1733,6 +1733,7 @@ export const PRODUCTS = [
     "id": "black-pepper",
     "tamilName": "கருப்பு மிளகு",
     "category": "spices",
+    "image": "/assets/black-pepper-spices-100g.webp",
     "sizes": [
       "100g",
       "250g",
@@ -1760,7 +1761,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-SPC-BLPE]",
-    "image": "/assets/placeholders/black-pepper.svg",
     "metaTitle": "Black Pepper | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Black Pepper direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -1769,6 +1769,7 @@ export const PRODUCTS = [
     "id": "kashmiri-whole-chilli",
     "tamilName": "காஷ்மீரி மிளகாய் வற்றல்",
     "category": "spices",
+    "image": "/assets/kashmiri-whole-chilli-spices-100g.webp",
     "sizes": [
       "100g",
       "250g",
@@ -1796,7 +1797,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-SPC-KAWH]",
-    "image": "/assets/placeholders/kashmiri-whole-chilli.svg",
     "metaTitle": "Kashmiri Whole Chilli | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Kashmiri Whole Chilli direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -1805,6 +1805,7 @@ export const PRODUCTS = [
     "id": "cinnamon",
     "tamilName": "இலவங்கப்பட்டை",
     "category": "spices",
+    "image": "/assets/cinnamon-spices-100g.webp",
     "sizes": [
       "100g",
       "250g"
@@ -1831,7 +1832,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-SPC-CINN]",
-    "image": "/assets/placeholders/cinnamon.svg",
     "metaTitle": "Cinnamon | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Cinnamon direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -1840,6 +1840,7 @@ export const PRODUCTS = [
     "id": "coriander-powder",
     "tamilName": "மல்லித் தூள் (தனியா தூள்)",
     "category": "spices",
+    "image": "/assets/coriander-powder-spices-100g.webp",
     "sizes": [
       "100g",
       "250g",
@@ -1867,7 +1868,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-SPC-COPO]",
-    "image": "/assets/placeholders/coriander-powder.svg",
     "metaTitle": "Coriander Powder | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Coriander Powder direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -1876,6 +1876,7 @@ export const PRODUCTS = [
     "id": "coriander-seeds",
     "tamilName": "மல்லி விதை (தனியா)",
     "category": "spices",
+    "image": "/assets/coriander-seeds-spices-100g.webp",
     "sizes": [
       "100g",
       "250g",
@@ -1903,7 +1904,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-SPC-COSE]",
-    "image": "/assets/placeholders/coriander-seeds.svg",
     "metaTitle": "Coriander Seeds | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Coriander Seeds direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -1912,6 +1912,7 @@ export const PRODUCTS = [
     "id": "garam-masala",
     "tamilName": "கரம் மசாலா",
     "category": "spices",
+    "image": "/assets/garam-masala-spices-100g.webp",
     "sizes": [
       "100g",
       "250g",
@@ -1939,7 +1940,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-SPC-GAMA]",
-    "image": "/assets/placeholders/garam-masala.svg",
     "metaTitle": "Garam Masala | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Garam Masala direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -1948,6 +1948,7 @@ export const PRODUCTS = [
     "id": "cumin-seeds-jeera",
     "tamilName": "சீரகம் (ஜீரகம்)",
     "category": "spices",
+    "image": "/assets/cumin-seeds-jeera-spices-100g.webp",
     "sizes": [
       "100g",
       "250g",
@@ -1975,7 +1976,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-SPC-CUSE]",
-    "image": "/assets/placeholders/cumin-seeds-jeera.svg",
     "metaTitle": "Cumin Seeds (Jeera) | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Cumin Seeds (Jeera) direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -1984,6 +1984,7 @@ export const PRODUCTS = [
     "id": "kasoori-methi",
     "tamilName": "கஸ்தூரி மேதி",
     "category": "spices",
+    "image": "/assets/kasoori-methi-spices-50g.webp",
     "sizes": [
       "50g",
       "100g",
@@ -2011,7 +2012,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-SPC-KAME]",
-    "image": "/assets/placeholders/kasoori-methi.svg",
     "metaTitle": "Kasoori Methi | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Kasoori Methi direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -2020,6 +2020,7 @@ export const PRODUCTS = [
     "id": "fenugreek-seeds",
     "tamilName": "வெந்தயம்",
     "category": "spices",
+    "image": "/assets/fenugreek-seeds-spices-100g.webp",
     "sizes": [
       "100g",
       "250g",
@@ -2047,7 +2048,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-SPC-FESE]",
-    "image": "/assets/placeholders/fenugreek-seeds.svg",
     "metaTitle": "Fenugreek Seeds | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Fenugreek Seeds direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -2056,6 +2056,7 @@ export const PRODUCTS = [
     "id": "fennel-seeds",
     "tamilName": "சோம்பு (பெருஞ்சீரகம்)",
     "category": "spices",
+    "image": "/assets/fennel-seeds-spices-100g.webp",
     "sizes": [
       "100g",
       "250g",
@@ -2083,7 +2084,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-SPC-FESE]",
-    "image": "/assets/placeholders/fennel-seeds.svg",
     "metaTitle": "Fennel Seeds | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Fennel Seeds direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -2092,6 +2092,7 @@ export const PRODUCTS = [
     "id": "bay-leaf",
     "tamilName": "பிரிஞ்சி இலை",
     "category": "spices",
+    "image": "/assets/bay-leaf-spices-50g.webp",
     "sizes": [
       "50g",
       "100g"
@@ -2118,7 +2119,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-SPC-BALE]",
-    "image": "/assets/placeholders/bay-leaf.svg",
     "metaTitle": "Bay Leaf | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Bay Leaf direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -2163,6 +2163,7 @@ export const PRODUCTS = [
     "id": "moringa-powder",
     "tamilName": "முருங்கை இலை பொடி",
     "category": "health-powders",
+    "image": "/assets/moringa-powder-health-powders-100g.webp",
     "sizes": [
       "100g",
       "250g",
@@ -2190,7 +2191,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-HLP-MOPO]",
-    "image": "/assets/placeholders/moringa-powder.svg",
     "metaTitle": "Moringa Powder | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Moringa Powder direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -2199,6 +2199,7 @@ export const PRODUCTS = [
     "id": "jaggery-granules",
     "tamilName": "வெல்லத்தூள் (நாட்டுச் சர்க்கரை)",
     "category": "sweeteners",
+    "image": "/assets/jaggery-granules-sweeteners-500g.webp",
     "sizes": [
       "500g",
       "1kg",
@@ -2226,7 +2227,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-SWT-JAGR]",
-    "image": "/assets/placeholders/jaggery-granules.svg",
     "metaTitle": "Jaggery Granules | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Jaggery Granules direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -2235,6 +2235,7 @@ export const PRODUCTS = [
     "id": "brown-sugar",
     "tamilName": "நாட்டுச் சர்க்கரை (பிரவுன் சுகர்)",
     "category": "sweeteners",
+    "image": "/assets/brown-sugar-sweeteners-500g.webp",
     "sizes": [
       "500g",
       "1kg",
@@ -2262,7 +2263,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-SWT-BRSU]",
-    "image": "/assets/placeholders/brown-sugar.svg",
     "metaTitle": "Brown Sugar | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Brown Sugar direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -2271,6 +2271,7 @@ export const PRODUCTS = [
     "id": "white-sulphurless-sugar",
     "tamilName": "வெள்ளை சல்பர் இல்லாத சர்க்கரை",
     "category": "sweeteners",
+    "image": "/assets/white-sulphurless-sugar-sweeteners-500g.webp",
     "sizes": [
       "500g",
       "1kg",
@@ -2298,7 +2299,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-SWT-WHSU]",
-    "image": "/assets/placeholders/white-sulphurless-sugar.svg",
     "metaTitle": "White Sulphurless Sugar | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic White Sulphurless Sugar direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
