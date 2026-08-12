@@ -140,6 +140,7 @@ export const PRODUCTS = [
     "id": "cashew-whole-w320",
     "tamilName": "முழு முந்திரி (W320)",
     "category": "dry-fruits",
+    "image": "/assets/cashew-whole-w320-dry-fruits-250g.webp",
     "sizes": [
       "250g",
       "500g",
@@ -167,7 +168,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-DFR-CAWH]",
-    "image": "/assets/placeholders/cashew-whole-w320.svg",
     "metaTitle": "Cashew Whole (W320) | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Cashew Whole (W320) direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -176,6 +176,7 @@ export const PRODUCTS = [
     "id": "kismis-raisins",
     "tamilName": "உலர் திராட்சை",
     "category": "dry-fruits",
+    "image": "/assets/kismis-raisins-dry-fruits-250g.webp",
     "sizes": [
       "250g",
       "500g",
@@ -203,7 +204,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-DFR-KIRA]",
-    "image": "/assets/placeholders/kismis-raisins.svg",
     "metaTitle": "Kismis / Raisins | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Kismis / Raisins direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -212,6 +212,7 @@ export const PRODUCTS = [
     "id": "natural-almond",
     "tamilName": "பாதாம் பருப்பு",
     "category": "dry-fruits",
+    "image": "/assets/natural-almond-dry-fruits-250g.webp",
     "sizes": [
       "250g",
       "500g",
@@ -239,7 +240,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-DFR-NAAL]",
-    "image": "/assets/placeholders/natural-almond.svg",
     "metaTitle": "Natural Almond | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Natural Almond direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -248,6 +248,7 @@ export const PRODUCTS = [
     "id": "walnut-whole",
     "tamilName": "முழு வால்நட்",
     "category": "dry-fruits",
+    "image": "/assets/walnut-whole-dry-fruits-250g.webp",
     "sizes": [
       "250g",
       "500g",
@@ -275,7 +276,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-DFR-WAWH]",
-    "image": "/assets/placeholders/walnut-whole.svg",
     "metaTitle": "Walnut Whole | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Walnut Whole direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -358,6 +358,7 @@ export const PRODUCTS = [
     "id": "rajgira-atta-amaranth-flour",
     "tamilName": "ராஜ்கிரா மாவு (கீரை விதை மாவு)",
     "category": "flour",
+    "image": "/assets/rajgira-atta-amaranth-flour-flour-500g.webp",
     "sizes": [
       "500g",
       "1kg",
@@ -385,7 +386,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-FLO-RAAT]",
-    "image": "/assets/placeholders/rajgira-atta-amaranth-flour.svg",
     "metaTitle": "Rajgira Atta / Amaranth Flour | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Rajgira Atta / Amaranth Flour direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
@@ -430,6 +430,7 @@ export const PRODUCTS = [
     "id": "singhada-flour",
     "tamilName": "சிங்காரா மாவு (தண்ணீர் விசித்திர மாவு)",
     "category": "flour",
+    "image": "/assets/singhada-flour-flour-500g.webp",
     "sizes": [
       "500g",
       "1kg"
@@ -456,7 +457,6 @@ export const PRODUCTS = [
     "mrp": null,
     "price": null,
     "barcodePlaceholder": "[BARCODE-AVTF-FLO-SIFL]",
-    "image": "/assets/placeholders/singhada-flour.svg",
     "metaTitle": "Singhada Flour | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Singhada Flour direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
   },
