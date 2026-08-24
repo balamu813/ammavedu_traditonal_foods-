@@ -103,7 +103,7 @@ export const PRODUCTS = [
     "id": "white-poha-beaten-rice",
     "tamilName": "வெள்ளை அவல்",
     "category": "cereals",
-    "image": "/assets/white-poha-beaten-rice-cereals-250g.webp",
+    "image": "/assets/white-poha-beaten-rice-cereals-250g.png",
     "sizes": [
       "250g",
       "500g",
@@ -140,7 +140,7 @@ export const PRODUCTS = [
     "id": "cashew-whole-w320",
     "tamilName": "முழு முந்திரி (W320)",
     "category": "dry-fruits",
-    "image": "/assets/cashew-whole-w320-dry-fruits-250g.webp",
+    "image": "/assets/cashew-whole-w320-dry-fruits-250g.png",
     "sizes": [
       "250g",
       "500g",
@@ -176,7 +176,7 @@ export const PRODUCTS = [
     "id": "kismis-raisins",
     "tamilName": "உலர் திராட்சை",
     "category": "dry-fruits",
-    "image": "/assets/kismis-raisins-dry-fruits-250g.webp",
+    "image": "/assets/kismis-raisins-dry-fruits-250g.png",
     "sizes": [
       "250g",
       "500g",
@@ -212,7 +212,7 @@ export const PRODUCTS = [
     "id": "natural-almond",
     "tamilName": "பாதாம் பருப்பு",
     "category": "dry-fruits",
-    "image": "/assets/natural-almond-dry-fruits-250g.webp",
+    "image": "/assets/natural-almond-dry-fruits-250g.png",
     "sizes": [
       "250g",
       "500g",
@@ -248,7 +248,7 @@ export const PRODUCTS = [
     "id": "walnut-whole",
     "tamilName": "முழு வால்நட்",
     "category": "dry-fruits",
-    "image": "/assets/walnut-whole-dry-fruits-250g.webp",
+    "image": "/assets/walnut-whole-dry-fruits-250g.png",
     "sizes": [
       "250g",
       "500g",
@@ -2157,6 +2157,42 @@ export const PRODUCTS = [
     "barcodePlaceholder": "[BARCODE-AVTF-SPC-TUPO]",
     "metaTitle": "Turmeric Powder | Amma Veedu Traditional Foods",
     "metaDescription": "Buy premium organic Turmeric Powder direct from farmers. 100% pure, natural, processed traditionally to retain absolute fiber and mineral goodness."
+  },
+  {
+    "name": "Cardamom / Elaichi",
+    "id": "cardamom-elaichi",
+    "tamilName": "ஏலக்காய்",
+    "category": "spices",
+    "image": "/assets/cardamom-elaichi-spices-50g.png",
+    "sizes": [
+      "50g",
+      "100g",
+      "250g"
+    ],
+    "tags": [
+      "aromatic",
+      "digestive"
+    ],
+    "benefits": "Aids digestion, freshens breath naturally, relieves acidity, and acts as a powerful antioxidant with anti-inflammatory properties.",
+    "usage": "Add whole pods to chai tea and biryani rice, use ground powder in sweets like kheer and halwa, or chew after meals as a natural mouth freshener.",
+    "shortDescription": "Discover the premium quality and authentic taste of our wholesome Cardamom / Elaichi by Amma Veedu Traditional Foods. Sourced directly from local Indian farmers practicing pesticide-free agriculture, this high-grade Spices staple is processed using traditional techniques to preserve all its natural minerals, vitamins, and health benefits.",
+    "description": "Incorporate the pure goodness of Amma Veedu Traditional Foods Cardamom / Elaichi into your daily meals for a healthier lifestyle. Grown in pesticide-free soils by local farming cooperatives across India, this premium-grade Spices product represents our dedication to supporting sustainable agriculture and reviving native food traditions. Every batch is sourced directly from farms and packaged under hygienic conditions to ensure that you receive the highest possible quality for your kitchen.\n\nOur careful, low-temperature processing methods are designed to protect the integrity of the spice, ensuring that essential volatile oils, minerals, and active compounds remain completely intact. Unlike mass-produced alternatives that undergo heavy chemical treatment, our natural Cardamom / Elaichi retains its rich aroma and natural nutritional structure. This makes it an ideal choice for health-conscious families looking for clean, chemical-free food staples.\n\nThis versatile spice is extremely easy to use in your daily culinary routine. You can prepare delicious traditional recipes by adding whole pods to chai tea and biryani rice, using ground powder in sweets like kheer and halwa, or chewing after meals as a natural mouth freshener. With positive health properties that assist in aiding digestion, freshening breath naturally, relieving acidity, and acting as a powerful antioxidant, it provides daily nourishment for the entire family.",
+    "keyFeatures": [
+      "Premium quality cardamom harvested from regional specialty farms.",
+      "Sun-dried and preserved to retain volatile essential oils.",
+      "Pure, unadulterated spice with zero fillers or color additives.",
+      "High sensory potency, offering deep aroma and rich taste.",
+      "Formulated following traditional grandmother spice recipes."
+    ],
+    "baseSku": "AVTF-SPC-CAEL",
+    "brand": "Amma Veedu Traditional Foods",
+    "countryOfOrigin": "India",
+    "stockQuantity": 100,
+    "mrp": null,
+    "price": null,
+    "barcodePlaceholder": "[BARCODE-AVTF-SPC-CAEL]",
+    "metaTitle": "Cardamom / Elaichi | Amma Veedu Traditional Foods",
+    "metaDescription": "Buy premium organic Cardamom / Elaichi direct from farmers. 100% pure, natural, processed traditionally to retain absolute flavor and health goodness."
   },
   {
     "name": "Moringa Powder",
