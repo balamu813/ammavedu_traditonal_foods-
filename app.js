@@ -143,7 +143,7 @@ function initCommonElements() {
             msg += `Please quote the packaging, shipping costs, and dispatch details for the items listed above. Thank you!`;
 
             const encodedMsg = encodeURIComponent(msg);
-            const storeNumber = "919600750495"; 
+            const storeNumber = "919489008953"; 
             const whatsappUrl = `https://wa.me/${storeNumber}?text=${encodedMsg}`;
 
             // Clear Cart and Form after checkout
@@ -480,7 +480,7 @@ function initProductPage(productId) {
         // Update WhatsApp message
         if (waInquiryBtn) {
             const baseMsg = `Hi, I am interested in buying ${product.name} (${selectedWeight}) from Amma Veedu Traditional Foods. Please quote the price and shipping costs. Thank you!`;
-            waInquiryBtn.href = `https://wa.me/919600750495?text=${encodeURIComponent(baseMsg)}`;
+            waInquiryBtn.href = `https://wa.me/919489008953?text=${encodeURIComponent(baseMsg)}`;
         }
     }
 

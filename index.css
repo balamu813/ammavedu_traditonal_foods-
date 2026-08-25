@@ -311,6 +311,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Navigation */
 .nav-bar {
     display: flex;
+    align-items: center;
     gap: 32px;
 }
 
@@ -320,6 +321,9 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--color-text-main);
     position: relative;
     padding: 6px 0;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
 }
 
 .nav-link::after {
@@ -2399,7 +2403,8 @@ h1, h2, h3, h4, h5, h6 {
    ========================================================================== */
 .nav-dropdown {
     position: relative;
-    display: inline-block;
+    display: flex;
+    align-items: center;
 }
 
 .dropdown-content {

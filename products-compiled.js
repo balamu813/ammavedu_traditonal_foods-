@@ -1447,7 +1447,7 @@ export const PRODUCTS = [
     "id": "himalayan-dark-pink-crystals",
     "tamilName": "இமாலய இளஞ்சிவப்பு கல் உப்பு",
     "category": "salt",
-    "image": "/assets/himalayan-dark-pink-crystals-salt-500g.webp",
+    "image": "/assets/himalayan-dark-pink-crystals-salt-500g.png",
     "sizes": [
       "500g",
       "1kg"
@@ -1482,7 +1482,7 @@ export const PRODUCTS = [
     "id": "himalayan-dark-pink-free-flow",
     "tamilName": "இமாலய இளஞ்சிவப்பு தூள் உப்பு",
     "category": "salt",
-    "image": "/assets/himalayan-dark-pink-free-flow-salt-500g.webp",
+    "image": "/assets/himalayan-dark-pink-free-flow-salt-500g.png",
     "sizes": [
       "500g",
       "1kg"
@@ -1517,7 +1517,7 @@ export const PRODUCTS = [
     "id": "chia-seeds",
     "tamilName": "சியா விதைகள்",
     "category": "seeds",
-    "image": "/assets/chia-seeds-seeds-250g.webp",
+    "image": "/assets/chia-seeds-seeds-250g.png",
     "sizes": [
       "250g",
       "500g",
@@ -1625,7 +1625,7 @@ export const PRODUCTS = [
     "id": "pumpkin-seeds",
     "tamilName": "பூசணி விதைகள்",
     "category": "seeds",
-    "image": "/assets/pumpkin-seeds-seeds-250g.webp",
+    "image": "/assets/pumpkin-seeds-seeds-250g.png",
     "sizes": [
       "250g",
       "500g",
@@ -1661,7 +1661,7 @@ export const PRODUCTS = [
     "id": "watermelon-seeds",
     "tamilName": "தர்பூசணி விதைகள்",
     "category": "seeds",
-    "image": "/assets/watermelon-seeds-seeds-250g.webp",
+    "image": "/assets/watermelon-seeds-seeds-250g.png",
     "sizes": [
       "250g",
       "500g",
@@ -1840,7 +1840,7 @@ export const PRODUCTS = [
     "id": "coriander-powder",
     "tamilName": "மல்லித் தூள் (தனியா தூள்)",
     "category": "spices",
-    "image": "/assets/coriander-powder-spices-100g.webp",
+    "image": "/assets/coriander-powder-spices-100g.png",
     "sizes": [
       "100g",
       "250g",
@@ -1876,7 +1876,7 @@ export const PRODUCTS = [
     "id": "coriander-seeds",
     "tamilName": "மல்லி விதை (தனியா)",
     "category": "spices",
-    "image": "/assets/coriander-seeds-spices-100g.webp",
+    "image": "/assets/coriander-seeds-spices-100g.png",
     "sizes": [
       "100g",
       "250g",
@@ -1948,7 +1948,7 @@ export const PRODUCTS = [
     "id": "cumin-seeds-jeera",
     "tamilName": "சீரகம் (ஜீரகம்)",
     "category": "spices",
-    "image": "/assets/cumin-seeds-jeera-spices-100g.webp",
+    "image": "/assets/cumin-seeds-jeera-spices-100g.png",
     "sizes": [
       "100g",
       "250g",
@@ -1984,7 +1984,7 @@ export const PRODUCTS = [
     "id": "kasoori-methi",
     "tamilName": "கஸ்தூரி மேதி",
     "category": "spices",
-    "image": "/assets/kasoori-methi-spices-50g.webp",
+    "image": "/assets/kasoori-methi-spices-50g.png",
     "sizes": [
       "50g",
       "100g",
@@ -2020,7 +2020,7 @@ export const PRODUCTS = [
     "id": "fenugreek-seeds",
     "tamilName": "வெந்தயம்",
     "category": "spices",
-    "image": "/assets/fenugreek-seeds-spices-100g.webp",
+    "image": "/assets/fenugreek-seeds-spices-100g.png",
     "sizes": [
       "100g",
       "250g",
@@ -2199,7 +2199,7 @@ export const PRODUCTS = [
     "id": "moringa-powder",
     "tamilName": "முருங்கை இலை பொடி",
     "category": "health-powders",
-    "image": "/assets/moringa-powder-health-powders-100g.webp",
+    "image": "/assets/moringa-powder-health-powders-100g.png",
     "sizes": [
       "100g",
       "250g",
@@ -2235,7 +2235,7 @@ export const PRODUCTS = [
     "id": "jaggery-granules",
     "tamilName": "வெல்லத்தூள் (நாட்டுச் சர்க்கரை)",
     "category": "sweeteners",
-    "image": "/assets/jaggery-granules-sweeteners-500g.webp",
+    "image": "/assets/jaggery-granules-sweeteners-500g.png",
     "sizes": [
       "500g",
       "1kg",
@@ -2271,7 +2271,7 @@ export const PRODUCTS = [
     "id": "brown-sugar",
     "tamilName": "நாட்டுச் சர்க்கரை (பிரவுன் சுகர்)",
     "category": "sweeteners",
-    "image": "/assets/brown-sugar-sweeteners-500g.webp",
+    "image": "/assets/brown-sugar-sweeteners-500g.png",
     "sizes": [
       "500g",
       "1kg",
@@ -2307,7 +2307,7 @@ export const PRODUCTS = [
     "id": "white-sulphurless-sugar",
     "tamilName": "வெள்ளை சல்பர் இல்லாத சர்க்கரை",
     "category": "sweeteners",
-    "image": "/assets/white-sulphurless-sugar-sweeteners-500g.webp",
+    "image": "/assets/white-sulphurless-sugar-sweeteners-500g.png",
     "sizes": [
       "500g",
       "1kg",
