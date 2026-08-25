@@ -683,7 +683,7 @@ export const PRODUCTS = [
     "id": "brown-top-millet",
     "tamilName": "பலா பச்சரிசி / பிரவுன்டாப் தினை",
     "category": "millets",
-    "image": "/assets/brown-top-millet-millets-500g.webp",
+    "image": "/assets/brown-top-millet-millets-500g.png",
     "sizes": [
       "500g",
       "1kg",
@@ -720,7 +720,7 @@ export const PRODUCTS = [
     "id": "foxtail-millet",
     "tamilName": "தினை அரிசி",
     "category": "millets",
-    "image": "/assets/foxtail-millet-millets-500g.webp",
+    "image": "/assets/foxtail-millet-millets-500g.png",
     "sizes": [
       "500g",
       "1kg",
@@ -757,7 +757,7 @@ export const PRODUCTS = [
     "id": "kodo-millet",
     "tamilName": "வரகு அரிசி",
     "category": "millets",
-    "image": "/assets/kodo-millet-millets-500g.webp",
+    "image": "/assets/kodo-millet-millets-500g.png",
     "sizes": [
       "500g",
       "1kg",
@@ -794,7 +794,7 @@ export const PRODUCTS = [
     "id": "little-millet",
     "tamilName": "சாமை அரிசி",
     "category": "millets",
-    "image": "/assets/little-millet-millets-500g.webp",
+    "image": "/assets/little-millet-millets-500g.png",
     "sizes": [
       "500g",
       "1kg",
@@ -831,7 +831,7 @@ export const PRODUCTS = [
     "id": "ragi-whole-finger-millet",
     "tamilName": "கேழ்வரகு முழுமை",
     "category": "millets",
-    "image": "/assets/ragi-whole-finger-millet-millets-500g.webp",
+    "image": "/assets/ragi-whole-finger-millet-millets-500g.png",
     "sizes": [
       "500g",
       "1kg",
@@ -868,7 +868,7 @@ export const PRODUCTS = [
     "id": "coconut-oil",
     "tamilName": "தேங்காய் எண்ணெய் (மரச்செக்கு)",
     "category": "oil",
-    "image": "/assets/coconut-oil-oil-500ml.webp",
+    "image": "/assets/coconut-oil-oil-500ml.png",
     "sizes": [
       "500ml",
       "1L",
@@ -905,7 +905,7 @@ export const PRODUCTS = [
     "id": "sunflower-oil",
     "tamilName": "சூரியகாந்தி எண்ணெய் (மரச்செக்கு)",
     "category": "oil",
-    "image": "/assets/sunflower-oil-oil-500ml.webp",
+    "image": "/assets/sunflower-oil-oil-500ml.png",
     "sizes": [
       "500ml",
       "1L",
@@ -942,7 +942,7 @@ export const PRODUCTS = [
     "id": "groundnut",
     "tamilName": "நிலக்கடலை / வேர்க்கடலை",
     "category": "oil-seeds",
-    "image": "/assets/groundnut-oil-seeds-500g.webp",
+    "image": "/assets/groundnut-oil-seeds-500g.png",
     "sizes": [
       "500g",
       "1kg",
