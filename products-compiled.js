@@ -978,7 +978,7 @@ export const PRODUCTS = [
     "id": "channa-whole-bengal-gram-whole",
     "tamilName": "கருப்பு கொண்டைக்கடலை (முழு)",
     "category": "pulses",
-    "image": "/assets/channa-whole-bengal-gram-whole-pulses-500g.webp",
+    "image": "/assets/channa-whole-bengal-gram-whole-pulses-500g.png",
     "sizes": [
       "500g",
       "1kg",
@@ -1014,7 +1014,7 @@ export const PRODUCTS = [
     "id": "channa-dal-split-bengal-gram",
     "tamilName": "கடலை பருப்பு",
     "category": "pulses",
-    "image": "/assets/channa-dal-split-bengal-gram-pulses-500g.webp",
+    "image": "/assets/channa-dal-split-bengal-gram-pulses-500g.png",
     "sizes": [
       "500g",
       "1kg",
@@ -1050,7 +1050,7 @@ export const PRODUCTS = [
     "id": "green-peas",
     "tamilName": "பச்சை பட்டாணி (உலர்ந்தது)",
     "category": "pulses",
-    "image": "/assets/green-peas-pulses-500g.webp",
+    "image": "/assets/green-peas-pulses-500g.png",
     "sizes": [
       "500g",
       "1kg",
@@ -1086,7 +1086,7 @@ export const PRODUCTS = [
     "id": "moong-whole-green-gram-whole",
     "tamilName": "பச்சை பயறு (முழு)",
     "category": "pulses",
-    "image": "/assets/moong-whole-green-gram-whole-pulses-500g.webp",
+    "image": "/assets/moong-whole-green-gram-whole-pulses-500g.png",
     "sizes": [
       "500g",
       "1kg",
@@ -1122,7 +1122,7 @@ export const PRODUCTS = [
     "id": "moong-dal-chilka-split-green-gram-with-skin",
     "tamilName": "பாசி பருப்பு (உடையாத தோல்)",
     "category": "pulses",
-    "image": "/assets/moong-dal-chilka-split-green-gram-with-skin-pulses-500g.webp",
+    "image": "/assets/moong-dal-chilka-split-green-gram-with-skin-pulses-500g.png",
     "sizes": [
       "500g",
       "1kg",
@@ -1158,7 +1158,7 @@ export const PRODUCTS = [
     "id": "moong-dal-split-green-gram-skinless",
     "tamilName": "பாசி பருப்பு",
     "category": "pulses",
-    "image": "/assets/moong-dal-split-green-gram-skinless-pulses-500g.webp",
+    "image": "/assets/moong-dal-split-green-gram-skinless-pulses-500g.png",
     "sizes": [
       "500g",
       "1kg",
@@ -1230,7 +1230,7 @@ export const PRODUCTS = [
     "id": "roasted-channa-dal-roasted-split-bengal-gram",
     "tamilName": "பொட்டுகடலை",
     "category": "pulses",
-    "image": "/assets/roasted-channa-dal-roasted-split-bengal-gram-pulses-250g.webp",
+    "image": "/assets/roasted-channa-dal-roasted-split-bengal-gram-pulses-250g.png",
     "sizes": [
       "250g",
       "500g",
@@ -1266,7 +1266,7 @@ export const PRODUCTS = [
     "id": "toor-dal-arhar-dal-split-pigeon-pea-unpolished",
     "tamilName": "துவரம் பருப்பு (தீட்டப்படாதது)",
     "category": "pulses",
-    "image": "/assets/toor-dal-arhar-dal-split-pigeon-pea-unpolished-pulses-500g.webp",
+    "image": "/assets/toor-dal-arhar-dal-split-pigeon-pea-unpolished-pulses-500g.png",
     "sizes": [
       "500g",
       "1kg",
@@ -1303,7 +1303,7 @@ export const PRODUCTS = [
     "id": "urad-black-gram-whole",
     "tamilName": "முழு கருப்பு உளுந்து",
     "category": "pulses",
-    "image": "/assets/urad-black-gram-whole-pulses-500g.webp",
+    "image": "/assets/urad-black-gram-whole-pulses-500g.png",
     "sizes": [
       "500g",
       "1kg",
