@@ -465,7 +465,7 @@ export const PRODUCTS = [
     "id": "sooji-rawa",
     "tamilName": "ரவா (உப்புமா ரவை)",
     "category": "flour",
-    "image": "/assets/sooji-rawa-flour-500g.webp",
+    "image": "/assets/sooji-rawa-flour-500g.png",
     "sizes": [
       "500g",
       "1kg",
@@ -501,7 +501,7 @@ export const PRODUCTS = [
     "id": "wheat-flour-khapli",
     "tamilName": "கப்ளி கோதுமை மாவு (உமிக்கோதுமை)",
     "category": "flour",
-    "image": "/assets/wheat-flour-khapli-flour-1kg.webp",
+    "image": "/assets/wheat-flour-khapli-flour-1kg.png",
     "sizes": [
       "1kg",
       "2kg",
@@ -537,7 +537,7 @@ export const PRODUCTS = [
     "id": "wheat-flour-lokwan",
     "tamilName": "லோக்வான் கோதுமை மாவு",
     "category": "flour",
-    "image": "/assets/wheat-flour-lokwan-flour-1kg.webp",
+    "image": "/assets/wheat-flour-lokwan-flour-1kg.png",
     "sizes": [
       "1kg",
       "2kg",
@@ -573,7 +573,7 @@ export const PRODUCTS = [
     "id": "wheat-flour-sharbati",
     "tamilName": "ஷர்பதி கோதுமை மாவு",
     "category": "flour",
-    "image": "/assets/wheat-flour-sharbati-flour-1kg.webp",
+    "image": "/assets/wheat-flour-sharbati-flour-1kg.png",
     "sizes": [
       "1kg",
       "2kg",
@@ -609,7 +609,7 @@ export const PRODUCTS = [
     "id": "bajra-pearl-millet",
     "tamilName": "முழு கம்பு",
     "category": "millets",
-    "image": "/assets/bajra-pearl-millet-millets-500g.webp",
+    "image": "/assets/bajra-pearl-millet-millets-500g.png",
     "sizes": [
       "500g",
       "1kg",
@@ -646,7 +646,7 @@ export const PRODUCTS = [
     "id": "barnyard-millet",
     "tamilName": "குதிரைவாலி அரிசி",
     "category": "millets",
-    "image": "/assets/barnyard-millet-millets-500g.webp",
+    "image": "/assets/barnyard-millet-millets-500g.png",
     "sizes": [
       "500g",
       "1kg",
